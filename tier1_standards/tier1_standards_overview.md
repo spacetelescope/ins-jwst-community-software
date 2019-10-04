@@ -6,7 +6,7 @@ As part of the initiative to track and manage software for the JWST user communi
 The software standards identified to be met as part of the first tier are:
 - [Software Must Be Version Controlled in a Software Repository](version_controlled_in_repo.md)
 - [Software Must Be Versioned](versioned_releases.md)
-- [Software Must Use a Ticketing System](ticketing_system.md)
+- [Software Must Use an Issue Tracking System](issue_tracking_system.md)
 - [Software Must Be Installable With python setup.py](package_structure.md)
 - [Software Must Be Available With Conda or Pip](conda_or_pip.md)
 - [Software Must Have a Recorded Environment](software_environment.md)
