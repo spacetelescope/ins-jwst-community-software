@@ -12,7 +12,7 @@ To meet the [Tier 1 Software Standards](tier1_standards/tier1_standards_overview
 - Be version controlled in a software repository using a version control system (e.g. ``git``)
 - Have a method of versioning software (e.g. GitHub tag)
 - Use an issue tracking system (e.g. GitHub Issues, Jira Issues)
-- Have a valid package structure such that it is installable via ``python setup.py``
+- Have a valid package structure such that it is installable via ``python setup.py install``
 - Be downloadable and installable via ``conda`` and/or ``pip``
 - Have a recorded software environment (e.g. ``environment.yml``, ``requirements.txt``)
 - Use continuous integration (e.g. ``Travis``, ``Jenkins``)
