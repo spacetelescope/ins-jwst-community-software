@@ -3,25 +3,25 @@
 This is one of the tier 1 software standards. See full list [here](tier1_standards_overview.md)
 
 ## Short description
-Environment files are a way to share conda environments in a format that allows users to create an environment from the file using a one-line command.
+Files that contain information on the environment set-up needed to run your tool, like `environment.yml` and `requirements.txt` files, are a good way to share environment information in a format that allows users to create or update an environment from the file using a one-line command.
 
 ## Importance of standard
-Including environment files in your repository leads for an easier installation process for your users as it allows them to create a conda environment that is almost guaranteed to be able to successfully run the software.
+Including files with required package information in your repository leads for an easier installation process for your users as it allows them to create or update a conda environment that is almost guaranteed to be able to successfully run the software.
+
+## Options for this standard
+The two common options for this standard are `environment.yml` and `requirements.txt` files.
 
 ## How to apply this standard
-Once created, your environment file should live in the top level of your repository
+Instructions to create an `environment.yml` file:
+- [From an existing environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment)
+- [By hand](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually)
 
-To create an environment file by creating a new environment and saving it:
-- Create your basic environment with `conda create -n env_name python=X.X`
-- Install all required packages. For this you have options:
-    - You can use your setup.py file's requirements by just running `python setup.py install`
-    - You can install requirements by hand, making sure to check the package versions
-- Confirm your tool runs
-- Export your environment to a file with `conda env export > environment.yml`
+Instructions to create a `requirements.txt` file:
+- [From an existing environment](https://pip.readthedocs.io/en/1.1/requirements.html#freezing-requirements)
+- [By hand](https://pip.readthedocs.io/en/1.1/requirements.html#the-requirements-file-format)
 
-To create an environment file by hand:
-- Create your YAML file with the command `touch environment.yml`
-- In your favorite text editor, fill out the file. See some of [conda's examples](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually)
+Once created, this file should live in the top level of your repository.
 
 ## Useful Links
-Conda Documentation on Environments: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#
+Conda's documentation on environments and `environment.yml` files: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+Pip's documentation on `requirements.txt` files: https://pip.readthedocs.io/en/1.1/requirements.html
