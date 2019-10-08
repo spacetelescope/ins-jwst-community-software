@@ -23,5 +23,5 @@ Instructions to create a `requirements.txt` file:
 Once created, this file should live in the top level of your repository.
 
 ## Useful Links
-Conda's documentation on environments and `environment.yml` files: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
-Pip's documentation on `requirements.txt` files: https://pip.readthedocs.io/en/1.1/requirements.html
+- [Conda's documentation on environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+- [Pip's documentation on requirements files](https://pip.readthedocs.io/en/1.1/requirements.html)

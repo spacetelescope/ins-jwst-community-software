@@ -19,4 +19,4 @@ However, to explore more about possible licenses you can look into GitHub's webs
 - Change the copyright year if appropriate
 
 ## Useful Links
-[GitHub's Page on Licensing](https://help.github.com/en/articles/licensing-a-repository)
+- [GitHub's Page on Licensing](https://help.github.com/en/articles/licensing-a-repository)

@@ -18,11 +18,9 @@ A summary of the different CI options available at STScI, see the STScI Style Gu
 
 ## How to apply this standard
 **TODO** Steps a team would need to take to be compliant with this standard
+Would like to use this information, if it gets merged: https://github.com/spacetelescope/training-library/pull/88
 
 ## Useful Links
-[Travis Tutorial](https://docs.travis-ci.com/user/tutorial/)
-
-https://github.com/spacetelescope/training-library/pull/88/
-https://codeship.com/continuous-integration-essentials
-https://www.thoughtworks.com/continuous-integration
-https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
+- [Travis Tutorial](https://docs.travis-ci.com/user/tutorial/)
+- [General information on CI by Thought Works](https://www.thoughtworks.com/continuous-integration)
+- [General information on CI by Atlassian](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)

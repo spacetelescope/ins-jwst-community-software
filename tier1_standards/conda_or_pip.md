@@ -30,6 +30,6 @@ To add your package to Conda-Forge:
 - See their [contributing guide](https://conda-forge.org/docs/maintainer/adding_pkgs.html#contributing-packages)
 
 ## Useful Links
-[Installing a package from Pip](https://packaging.python.org/tutorials/installing-packages/)
-[Installing a package from Astroconda](https://astroconda.readthedocs.io/en/latest/index.html)
-[Installing a package from Conda-Forge](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge) 
+- [Installing a package from Pip](https://packaging.python.org/tutorials/installing-packages/)
+- [Installing a package from Astroconda](https://astroconda.readthedocs.io/en/latest/index.html)
+- [Installing a package from Conda-Forge](https://conda-forge.org/docs/user/introduction.html#how-can-i-install-packages-from-conda-forge) 

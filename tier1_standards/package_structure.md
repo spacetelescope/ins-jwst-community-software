@@ -20,4 +20,4 @@ There is only one option for complying with this standard for Python, which is d
 You can check that your module/package is installed correctly by running `python setup.py install` in the outer-most level of your package, and then importing it with `import package_name`.
 
 ## Useful Links
-An STScI template GitHub repository which shows a more complex example of `setup.py` including calling a `setup.cfg` file: https://github.com/spacetelescope/stsci-package-template
+- An [STScI template GitHub repository](https://github.com/spacetelescope/stsci-package-template) which shows a more complex example of `setup.py` including calling a `setup.cfg` file
