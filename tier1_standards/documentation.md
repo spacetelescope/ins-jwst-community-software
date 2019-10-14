@@ -26,7 +26,7 @@ What information to include:
 - Command to install software via pip or conda. See [here](conda_or_pip.md) for requirement.
 - Command to install software directly from repository (if relevant)
 - The minimum Python version required
-- How to download and use the environment.yml file to create an environment. See [conda's information on environment.yml files](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) as a starting point
+- How to download and use the environment.yml and/or requirements.txt file to set up an environment. See [here](software_environment.md) for relevant links.
 - Any known installation issues
 
 Not required but useful information to include:

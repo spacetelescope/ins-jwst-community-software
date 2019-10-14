@@ -11,16 +11,18 @@ Hosting your software in a version controlled repository has a number of benefit
 Version controlled repositories also allow for more streamlined development as multiple people can work on the code base at once but in different streams which a version control system can help merge back together and handle any conflicting changes. There are many possible work flows that can be used when editing version controlled data, a basic overview of which can be read about [here](https://www.atlassian.com/git/tutorials/comparing-workflows).
 
 ## Options for this standard
-There are a few different options hosting for version controlled repository. STScI mainly using GitHub or GitLab, so we would recommend using one of these. However there are many other options including Mercurial, Perforce, and Apache Subversion.
+It is [ITSD policy](https://innerspace.stsci.edu/display/isec/Source+Code+Control) to use `git` as your version control system. Specifically, the polcy states that "all STScI products maintain an up-to-date repository on the STScI GitLab solution located on grit.stsci.edu, or on gitar.stsci.edu for ITAR/EAR-controlled code" and "where necessary to support external collaboration, STScI product teams may use GitHub... as the primary source control repository, but must also maintain a mirror repository internally on the STScI GitLab."
 
 ## How to apply this standard
-Focusing on GitHub and GitLab, here is some information on uploading/transferring projects:
+Here is information on uploading/transferring projects:
 - To upload an existing project to GitHub:
     - [From a local version of the repository](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)
     - [From another version control system](https://help.github.com/en/articles/importing-source-code-to-github)
 - To upload an existing project to GitLab:
     - [From a local version of the repository](https://docs.gitlab.com/ee/gitlab-basics/create-project.html#push-to-create-a-new-project)
     - [From another version control system](https://docs.gitlab.com/ee/user/project/import/index.html)
+- To set up a mirror between GitHub and GitLab, see [GitLab's documentation on pull mirrors](https://docs.gitlab.com/ee/workflow/repository_mirroring.html#pulling-from-a-remote-repository-starter)
+    - If you run into password errors, you may need to set up a [GitHub personal access token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) (be sure to check the "repo" section), and use that instead of the password when creating the mirror.
 
 When setting up your repository, there are some conventions that should be met - see the [STScI Style Guide's list of repository conventions](https://github.com/spacetelescope/style-guides/blob/master/guides/github-repositories.md#conventions) for these. While all these should be met at some point, if you are creating a brand new repository we suggest that you focus on: 
 - [Name of repository](https://github.com/spacetelescope/style-guides/blob/master/guides/github-repositories.md#naming)
