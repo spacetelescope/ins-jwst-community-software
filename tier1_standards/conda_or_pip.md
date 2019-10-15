@@ -3,7 +3,7 @@
 This is one of the tier 1 software standards. See full list [here](tier1_standards_overview.md)
 
 ## Short description
-While your users can download your software files and install your package with `python setup.py install` as described [here](package_structure.md), it is also possible to distribute your software with by uploading it to **an online software site**. This can turn your package installation process to single lines like `pip install <package>` and `conda install <package>`.
+While your users can download your software files and install your package with `python setup.py install` as described [here](package_structure.md), it is also possible to distribute your software with by uploading it to package manager. This can turn your package installation process to single lines like `pip install <package>` and `conda install <package>`.
 
 ## Importance of standard
 While packaging your software and having it available as an open source repository is a good way to let your users access it, it can be made even easier by allowing your package to be installable with either pip or conda. Your user will be able to use a single line installation without needing prior knowledge of software.
