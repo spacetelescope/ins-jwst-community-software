@@ -16,7 +16,7 @@ CI's automated building and testing allows developers to:
 For a summary of the different CI options available at STScI, see the STScI Style Guide on CI [here](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md/#continuous-integration)
 
 ## How to apply this standard
-See a guide on how to set up multiple CI options from the [STScI Training Library](https://github.com/spacetelescope/training-library/pull/88)
+See a guide on how to set up multiple CI options from the [STScI Training Library](https://spacetelescope.github.io/training-library/ci_testing.html#introduction-to-continuous-integration)
 
 ## Useful Links
 - [Travis Tutorial](https://docs.travis-ci.com/user/tutorial/)
