@@ -1,6 +1,6 @@
 # Software Must Meet Basic Standards for Protecting It's `master` Branch
 
-This is one of the tier 1 standards. See full list [on the overview page](tier1_standards_overview.md).
+This is one of the tier 1 standards. See full list [on the overview page](README.md).
 
 ## Short description
 Protecting the `master` branch means setting up safeguards within the repository settings to prevent any un-checked changes from being applied to the production level of the code.

@@ -1,6 +1,6 @@
 # Software Must Be Version Controlled in a Software Repository
 
-This is one of the tier 1 standards. See full list [on the overview page](tier1_standards_overview.md).
+This is one of the tier 1 standards. See full list [on the overview page](README.md).
 
 ## Short description
 A version controlled repository is a set of directories and files that have their changes tracked such that older versions of the software can be retrieved.
@@ -8,10 +8,10 @@ A version controlled repository is a set of directories and files that have thei
 ## Importance of this standard
 Hosting your software in a version controlled repository has a number of benefits. First and foremost, since it keeps a history of changes it makes it possible to trace any problems in code to specific changes or revert your software if a mistake is made.
 
-Version controlled repositories also allow for more streamlined development as multiple people can collaborate on the software with a version control system that can help merge together changes, and handle conflicting changes. There are many possible workflows that can be used when employig a version control system; a basic overview can be found [here](https://www.atlassian.com/git/tutorials/comparing-workflows).
+Version controlled repositories also allow for more streamlined development as multiple people can collaborate on software with a version control system that can help merge together changes and handle conflicting changes. There are many possible workflows that can be used when employig a version control system; a basic overview can be found [here](https://www.atlassian.com/git/tutorials/comparing-workflows).
 
 ## Options for this standard
-It is [ITSD policy](https://innerspace.stsci.edu/display/isec/Source+Code+Control) to use `git` as your version control system. Specifically, the polcy states that "all STScI products maintain an up-to-date repository on the STScI GitLab solution located on `grit.stsci.edu`, or on `gitar.stsci.edu` for ITAR/EAR-controlled code" and "where necessary to support external collaboration, STScI product teams may use GitHub ... as the primary source control repository, but must also maintain a mirror repository internally on the STScI GitLab."
+It is [ITSD policy](https://innerspace.stsci.edu/display/isec/Source+Code+Control) to use `git` as your version control system. Specifically, the policy states that "all STScI products maintain an up-to-date repository on the STScI GitLab solution located on `grit.stsci.edu`, or on `gitar.stsci.edu` for ITAR/EAR-controlled code" and "where necessary to support external collaboration, STScI product teams may use GitHub ... as the primary source control repository, but must also maintain a mirror repository internally on the STScI GitLab."
 
 ## How to apply this standard
 Here is information on uploading/transferring projects:

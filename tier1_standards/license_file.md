@@ -1,9 +1,9 @@
 # Software Must Have a LICENSE File
 
-This is one of the tier 1 standards. See full list [on the overview page](tier1_standards_overview.md).
+This is one of the tier 1 standards. See full list [on the overview page](README.md).
 
 ## Short description
-A license file is a document attached to the software repository that defines how the softrare may be used and distributed.
+A license file is a document attached to the software repository that defines how the software may be used and distributed.
 
 ## Importance of this standard
 The license chosen for a software product defines how users and collaborators can work with the code, and it is what will truely define the product as "open source." Choosing the wrong license, or not choosing a license at all, may disrupt users from sharing and editing your software.

@@ -1,6 +1,6 @@
 # Software Must Meet Basic Security Standards
 
-This is one of the tier 1 standards. See full list [on the overview page](tier1_standards_overview.md).
+This is one of the tier 1 standards. See full list [on the overview page](README.md).
 
 ## Short description
 While certain applications require a more focused analysis of their security vulnerabilities, all software products should follow the most basic security standards.

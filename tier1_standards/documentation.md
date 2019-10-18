@@ -1,6 +1,6 @@
 # Software Must Have Installation and Usage Documentation
 
-This is one of the tier 1 standards. See full list [on the overview page](tier1_standards_overview.md).
+This is one of the tier 1 standards. See full list [on the overview page](README.md).
 
 ## Short description
 It is important to explicitly state how users can install and use the software. Such information must either be explicitly documented in or linked to on a JDox page.

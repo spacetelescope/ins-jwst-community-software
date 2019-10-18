@@ -1,6 +1,6 @@
 # Software Must Be Versioned
 
-This is one of the tier 1 standards. See full list [on the overview page](tier1_standards_overview.md).
+This is one of the tier 1 standards. See full list [on the overview page](README.md).
 
 ## Short description
 As software is incrementally released, it is common practice to give unique version names or numbers to the newly released code.

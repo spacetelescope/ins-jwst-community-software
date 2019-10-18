@@ -1,6 +1,6 @@
 # Software Must Use Continuous Integration
 
-This is one of the tier 1 standards. See full list [on the overview page](tier1_standards_overview.md).
+This is one of the tier 1 standards. See full list [on the overview page](README.md).
 
 ## Short description
 Continuous Integration (CI) is a practice where developers regularly integrate their code changes into the main repository and validate their changes by running automated builds and tests. This integration should occur before code changes are merged into production to ensure that the new changes do not break the existing software.
@@ -16,8 +16,7 @@ CI's automated building and testing allows developers to:
 For a summary of the different CI options available at STScI, see the STScI Style Guide on CI [here](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md/#continuous-integration)
 
 ## How to apply this standard
-**TODO** Steps a team would need to take to be compliant with this standard
-Would like to use this information, if it gets merged: https://github.com/spacetelescope/training-library/pull/88
+See a guide on how to set up multiple CI options from the [STScI Training Library](https://github.com/spacetelescope/training-library/pull/88)
 
 ## Useful Links
 - [Travis Tutorial](https://docs.travis-ci.com/user/tutorial/)

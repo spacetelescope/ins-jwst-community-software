@@ -1,6 +1,6 @@
 # Software Must Be Available with `conda` or `pip`
 
-This is one of the tier 1 standards. See full list [on the overview page](tier1_standards_overview.md).
+This is one of the tier 1 standards. See full list [on the overview page](README.md).
 
 ## Short description
 While users can download the software files and install the package with `python setup.py install` as described [here](package_structure.md), it is also possible to distribute the software by uploading it to package manager. This can allow the package installation process to be simple, single commands like `pip install <package>` and/or `conda install <package>`.
