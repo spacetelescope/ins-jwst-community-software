@@ -1,4 +1,4 @@
-# ins-software-standards
+# INS JWST Community Software
 
 This repository is a part of an initiative to have all software tools for the JWST user community that are developed/maintained by the Instruments Division (INS) meet accepted software standards. This includes the software being robust, maintainable, documented, and supported. The contents of this repository aims to describe these standards for the INS software tools and encourage a common approach across projects.
 
