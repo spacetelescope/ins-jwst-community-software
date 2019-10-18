@@ -22,15 +22,15 @@ To meet the [Tier 1 Software Standards](tier1_standards/tier1_standards_overview
 - Meet basic security standards
 
 To meet the [Tier 2 Software Standards](tier2_standards/tier2_standards_overview.md) the tool must:
-- Have a ``Code of Conduct``
-- Use continuous deployment
-- Have documented reasoning of when/why to release a new version
-- Utilize code review (when appropriate)
 - Have a documented ``git`` workflow
-- Have backups for its maintainers/developers
-- Enforce language-specific coding standards
-- Have an automated dependency controller
-
+- Have a ``Code of Conduct.md`` file
+- Utilize code review (when appropriate)
+- Enforce language-specific coding standards (e.g. PEP8)
+- Have backups for its maintainers
+- Have documented reasoning of when/why to release a new version
+- Use continuous deployment
+- Have an automated dependency controller (e.g. PyUp)
+- Have citation information (e.g. ``CITATION`` file, DOIs for each release)
 
 ## Contributing
 
