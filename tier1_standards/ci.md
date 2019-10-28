@@ -11,11 +11,14 @@ CI's automated building and testing allows developers to:
 - Avoid long integration processes for large code changes
 - Test changes before merging to avoid breaking the code base
 - Find bugs early in the development
+- Easily test the installation of their package
 
 ## Options for this standard
 For a summary of the different CI options available at STScI, see the STScI Style Guide on CI [here](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md/#continuous-integration)
 
 ## How to apply this standard
+The existence of unit tests is highly encouraged as part of this standard, but not required. Since CI also tests the installation of your package, it can be set up without the existence of any unit tests.
+
 See a guide on how to set up multiple CI options from the [STScI Training Library](https://spacetelescope.github.io/training-library/ci_testing.html#introduction-to-continuous-integration)
 
 ## Useful Links
