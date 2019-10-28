@@ -10,6 +10,7 @@ The software standards identified to be met as part of the "second tier" are:
 - Software Must Enforce Coding Standards
 - Software Must Have Backup Maintainers
 - Software Must Have Documented Reasoning For Releases
+- Software Must Have Some Test Coverage
 - Software Must Use Continuous Deployment
 - Software Must Use an Automated Dependency Controller
 - Software Must Have Documented Citation Information
