@@ -8,7 +8,7 @@ This work is managed by the INS Software Development Leads for this project Matt
 
 The software standards have been split into "tier 1" and "tier 2" goals.
 
-To meet the [Tier 1 Software Standards](tier1_standards/tier1_standards_overview.md) the tool must:
+To meet the [Tier 1 Software Standards](tier1_standards/README.md) the tool must:
 - Be version controlled in a software repository using a version control system (e.g. ``git``)
 - Have a method of versioning software (e.g. GitHub tag)
 - Use an issue tracking system (e.g. GitHub Issues, Jira Issues)
@@ -21,7 +21,7 @@ To meet the [Tier 1 Software Standards](tier1_standards/tier1_standards_overview
 - Have a ``LICENSE`` file
 - Meet basic security standards
 
-To meet the [Tier 2 Software Standards](tier2_standards/tier2_standards_overview.md) the tool must:
+To meet the [Tier 2 Software Standards](tier2_standards/README.md) the tool must:
 - Have a documented ``git`` workflow
 - Have a ``Code of Conduct.md`` file
 - Utilize code review (when appropriate)
