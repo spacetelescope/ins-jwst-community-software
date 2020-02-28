@@ -22,15 +22,17 @@ To meet the [Tier 1 Software Standards](tier1_standards/README.md) the tool must
 - Meet basic security standards
 
 To meet the [Tier 2 Software Standards](tier2_standards/README.md) the tool must:
-- Have a documented ``git`` workflow
 - Have a ``Code of Conduct.md`` file
-- Utilize code review (when appropriate)
+- Have citation information (e.g. ``CITATION`` file, DOIs for each release)
 - Enforce language-specific coding standards (e.g. PEP8)
-- Have backups for its maintainers
+- Have a documented ``git`` workflow (or contributer's guide)
+- Software must have some test coverage that tests the major functionality of the code
 - Have documented reasoning of when/why to release a new version
 - Use continuous deployment
-- Have an automated dependency controller (e.g. PyUp)
-- Have citation information (e.g. ``CITATION`` file, DOIs for each release)
+- Have backup maintainers
+- Utilize code review (when appropriate)
+- Have an automated dependency controller (e.g. ``PyUp``) [optional]
+- Have API documentation [optional]
 
 ## Contributing
 
