@@ -24,15 +24,17 @@ To meet the [Tier 1 Software Standards](tier1_standards/README.md) the tool must
 To meet the [Tier 2 Software Standards](tier2_standards/README.md) the tool must:
 - Have a ``Code of Conduct.md`` file
 - Have citation information (e.g. ``CITATION`` file, DOIs for each release)
-- Enforce language-specific coding standards (e.g. PEP8)
+- Enforce language-specific coding standards (e.g. PEP8) [at least for future releases]
+- Use Python >= 3.0 (?)
 - Have a documented ``git`` workflow (or contributer's guide)
-- Software must have some test coverage that tests the major functionality of the code
-- Have documented reasoning of when/why to release a new version
-- Use continuous deployment
+- Have API documentation
+- Software must have some unit and/or regression tests that tests the major functionality of the code
+- Define a consitent release structure
+- Document releases
 - Have backup maintainers
-- Utilize code review (when appropriate)
+- Utilize code review/approval for new changes
+- Use continuous deployment [optional]
 - Have an automated dependency controller (e.g. ``PyUp``) [optional]
-- Have API documentation [optional]
 
 ## Contributing
 
