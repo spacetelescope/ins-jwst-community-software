@@ -8,33 +8,33 @@ This work is managed by the INS Software Development Leads for this project Matt
 
 The software standards have been split into "tier 1" and "tier 2" goals.
 
-To meet the [Tier 1 Software Standards](tier1_standards/README.md) the tool must:
-- Be version controlled in a software repository using a version control system (e.g. ``git``)
-- Have a method of versioning software (e.g. GitHub tag)
-- Use an issue tracking system (e.g. GitHub Issues, Jira Issues)
-- Have a valid package structure such that it is installable via ``python setup.py install``
-- Be downloadable and installable via ``conda`` and/or ``pip``
-- Have a recorded software environment (e.g. ``environment.yml``, ``requirements.txt``)
-- Use continuous integration (e.g. ``Travis``, ``Jenkins``)
-- Use a workflow that protects a ``master`` or production branch
-- Have documentation that describes how to install and use the tool in JDox
-- Have a ``LICENSE`` file
-- Meet basic security standards
+Tier 1 standards:
+- [Software Must Be Version Controlled in a Software Repository](tier1_standards/version_controlled_in_repo.md)
+- [Software Must Be Versioned](tier1_standards/versioned_releases.md)
+- [Software Must Use an Issue Tracking System](tier1_standards/issue_tracking_system.md)
+- [Software Must Be Installable with `python setup.py install`](tier1_standards/package_structure.md)
+- [Software Must Be Available with `conda` or `pip`](tier1_standards/conda_or_pip.md)
+- [Software Must Have a Recorded Environment](tier1_standards/software_environment.md)
+- [Software Must Use Continuous Integration](tier1_standards/ci.md)
+- [Software Must Meet Basic Standards for Protecting It's `master` Branch](tier1_standards/protected_master_branch.md)
+- [Software Must Have Installation and Usage Documentation](tier1_standards/documentation.md)
+- [Software Must Have a LICENSE File](tier1_standards/license_file.md)
+- [Software Must Meet Basic Security Standards](tier1_standards/security_standards.md)
 
-To meet the [Tier 2 Software Standards](tier2_standards/README.md) the tool must:
-- Have a ``Code of Conduct.md`` file
-- Have citation information (e.g. ``CITATION`` file, DOIs for each release)
-- Enforce language-specific coding standards (e.g. PEP8) [at least for future releases]
-- Use Python >= 3.0 (?)
-- Have a documented ``git`` workflow (or contributer's guide)
-- Have API documentation
-- Software must have some unit and/or regression tests that tests the major functionality of the code
-- Define a consitent release structure
-- Document releases
-- Have backup maintainers
-- Utilize code review/approval for new changes
-- Use continuous deployment [optional]
-- Have an automated dependency controller (e.g. ``PyUp``) [optional]
+Tier 2 standards:
+
+- [Software Repository Must Have a ``Code of Conduct`` File](tier2_standards/code_of_conduct.md)
+- [Project Have Documented Citation Information](tier2_standards/citation_information.md)
+- [Software Must Enforce Language-specific Coding Standards (e.g. PEP8)](tier2_standards/coding_standards.md)]
+- [Software Must Use Python>=3.6 Where Applicable](tier2_standards/python_version.md)
+- [Project Must Have or Reference a Documented ``git`` Workflow or Contributor's Guide](tier2_standards/git_workflow.md)]
+- [Software Must Document Modules, Classes, and/or Functions](tier2_standards/api_documentation.md)
+- [Project Have Some Unit and/or Regression Tests](tier2_standards/test_coverage.md)]
+- [Project Must Define or Reference a Consistent Release Structure](tier2_standards/release_structure.md)
+- [Project Must Provide Release Notes](tier2_standards/release_notes.md)]
+- [Project Must Have Backup Maintainers](tier2_standards/backup_maintainers.md)
+- [Project Must Utilize Code Review/Approval for New Changes](tier2_standards/code_review.md)]
+- [Project Must Use an Automated Dependency Controller](tier2_standards/automated_dependency.md)
 
 ## Contributing
 

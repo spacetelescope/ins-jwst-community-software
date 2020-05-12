@@ -1,4 +1,4 @@
-# Project Must Utilize Code Review
+# Project Must Utilize Code Review/Approval for New Changes
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 
