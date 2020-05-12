@@ -1,4 +1,4 @@
-# Software Must Have a Documented ``git`` Workflow
+# Project Must Have a Documented ``git`` Workflow
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 

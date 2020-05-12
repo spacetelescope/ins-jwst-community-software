@@ -1,4 +1,4 @@
-# Software Must Have Documented Reasoning For Releases
+# Project Must Have Documented Reasoning For Releases
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 

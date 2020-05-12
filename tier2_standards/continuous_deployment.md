@@ -1,4 +1,4 @@
-# Software Must Use Continuous Deployment
+# Project Must Use Continuous Deployment
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 

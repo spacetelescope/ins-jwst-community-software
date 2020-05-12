@@ -1,4 +1,4 @@
-# Software Must Have Some Test Coverage
+# Project Must Have Some Test Coverage
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 

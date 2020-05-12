@@ -1,4 +1,4 @@
-# Project Must Have Backup Maintainer
+# Software Must Have API Documentation
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 

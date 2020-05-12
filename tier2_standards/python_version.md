@@ -1,4 +1,4 @@
-# Project Must Have Backup Maintainer
+# Software Must Use Python>=3.6 Where Applicable
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 

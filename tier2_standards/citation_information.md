@@ -1,4 +1,4 @@
-# Software Must Have Documented Citation Information
+# Project Must Have Documented Citation Information
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 
