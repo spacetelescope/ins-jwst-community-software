@@ -14,7 +14,7 @@ Developers looking at one another's code helps to limit the number of bugs, typo
 
 Code reviews can happen with any number of developers and can range from reviewing pull requests to large sit down sessions where an entire team looks at a piece of code. Due to the size and nature of the INS teams, we will focus on implementing the former type of code review.
 
-While software teams can keep the reviewal process outside of their git workflow, we reccomend that they consider implementing required code reviews before any pull/merge requests are merged into the code base. This can be done for GitHub or GitLab by following instructions here:
+While software teams can keep the review process outside of their git workflow, we recommend that they consider implementing required code reviews before any pull/merge requests are merged into the code base. This can be done for GitHub or GitLab by following instructions here:
 - [Require code review for PRs in GitHub](https://help.github.com/en/enterprise/2.13/user/articles/enabling-required-reviews-for-pull-requests)
 - [Require code review for MRs in GitLab](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html)
 
