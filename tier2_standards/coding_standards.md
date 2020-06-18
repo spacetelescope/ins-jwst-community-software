@@ -8,7 +8,7 @@ Coding standards serve as a style guide or set of best practices for writing cod
 
 ## Importance of this standard
 
-Consistent coding standards across a piece of software  improves the overall quality of the code. It make code more readable for current and future developers which in turn helps it be more maintainable.
+Consistent coding standards across a piece of software improves the overall quality of the code. It make code more readable for current and future developers which in turn helps it be more maintainable.
 
 ## Options for this standard
 

@@ -40,7 +40,6 @@ Developers also have options when formatting their release notes. They can inclu
 
 Developers should write release notes with their user community in mind: the writing shouldn't be vague, jargon should be kept to a minimum, acronyms should be explained, etc.
 
-
 ## Useful Links
 
 Check out some examples of release note formatting here:

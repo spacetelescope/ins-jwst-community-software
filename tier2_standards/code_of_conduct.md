@@ -30,4 +30,5 @@ Software teams should thoughtfully consider the contents they want to go in thei
 Teams should continue to have their code of conduct in mind as they continue their work on the repository and be prepared to call out and/or report behavior that violates this code. 
 
 ## Useful Links
+
 - See the [STScI Style Guide section on Codes of Conduct](https://github.com/spacetelescope/style-guides/blob/master/guides/github-repositories.md#code-of-conduct) 

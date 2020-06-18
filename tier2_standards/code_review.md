@@ -28,7 +28,6 @@ The software teams should also decide who is responsible for merging the pull/me
 
 Once assigned, the reviewer can comment, request changes, or approve the pull/merge request. 
 
-
 Some of the things reviewers can look for in their reviews of pull/merge requests are:
 - Checking the code covers all the original requirements
 - Checking for any bugs in general use cases and edge cases
@@ -37,5 +36,6 @@ Some of the things reviewers can look for in their reviews of pull/merge request
 - Checking there are tests and documentation written for any new code
 
 ## Useful Links
+
 - [STScI's options on git review](https://github.com/spacetelescope/style-guides/blob/master/guides/git-pr-review.md)
 - [PyCon 2017 Talk on Effective Code Review](https://www.youtube.com/watch?v=iNG1a--SIlk)
