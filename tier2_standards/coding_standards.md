@@ -12,7 +12,7 @@ Consistent coding standards across a piece of software improves the overall qual
 
 ## Options for this standard
 
-Python's main style guide is named "PEP8" and it defines a way of formatting Python code that is widely accepted by the community. Software teams are encouraged to follow PEP8 standards where appropriate.
+Python's main style guide is named the Python Enhancement Proposal #8 or "PEP8" and it defines a way of formatting Python code that is widely accepted by the community. Software teams are encouraged to follow PEP8 standards where appropriate.
 
 Teams are allowed to deviate from these standards in certain cases, for example, ignoring a requirement that may be considered "overkill", or choosing to slightly modified standard. However, the final code base should be reasonably self-consistent and readable.
 
