@@ -4,18 +4,15 @@ This is one of the tier 2 standards. See full list [on the overview page](README
 
 ## Short description
 
-One of the key aspects of documenting code, is documenting how users should expect to interact with different modules, classes, methods, and/or functions that live in your code. 
-
-The common way of documenting these objects is to use documentation strings or "docstrings", which are string literals that give an overview of the object it's describing.
+One of the key aspects of documenting code, is documenting how users should expect to interact with different modules, classes, methods, and/or functions that live in your code. The common way of documenting these objects is to use documentation strings or "docstrings", which are string literals that give an overview of the object it's describing.
 
 ## Importance of this standard
 
 Docstrings for the modules, classes, and/or functions in your code serve a variety of purposes. They:
-- Act as formalized, proper documentation of functions, classes, modules, etc.
-- Allows users to better understand how the software works and how to use it
-- Improve the overall readability of code and decrease on-boarding time for new contributors
-- Can be easily accessed with the `help()` function or `__doc__` attribute, and ported to online documentation more easily than other kinds of comments due to their formatting
-
+- Act as formalized, proper documentation
+- Allow users to better understand how the software works and how to use it
+- Improve the overall readability of code and decrease on-boarding time for new developers
+- Can be more easily accessed than other kinds of comments due to their formatting, either through the `help()` function or `__doc__` attribute or by being ported to online documentation
 ## Options for this standard
 
 Python has a style guide specifically for docstrings called [PEP257](https://www.python.org/dev/peps/pep-0257/) (where PEP stands for Python Enhancement Proposal). PEP-257 gives an overview of what docstrings are and how they should be formatted.
@@ -27,12 +24,12 @@ No matter the formatting, there are certain pieces of information that should be
 - Information on inputs to the object including the names of parameters, their types, and a description
 - Information on what the object returns, if anything, including their types and a description
 
-There is also some optional information that can be included:
+There is also some optional information that can be included, like:
 - Examples
 - Notes
 - References
 
-For more things that can be included in docstrings, see some [examples from NumpyDocs.](https://numpydoc.readthedocs.io/en/latest/format.html#sections)
+For other information that can be included in docstrings, see these [examples from NumpyDocs.](https://numpydoc.readthedocs.io/en/latest/format.html#sections)
 
 ## How to apply this standard
 
