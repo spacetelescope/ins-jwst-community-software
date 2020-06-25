@@ -40,4 +40,4 @@ Something to remember is that all parties should be conscious of staying polite 
 ## Useful Links
 
 - [STScI's options on git review](https://github.com/spacetelescope/style-guides/blob/master/guides/git-pr-review.md)
-- [PyCon 2017 Talk on Effective Code Review](https://www.youtube.com/watch?v=iNG1a--SIlk)
+- [PyCon 2017 Talk on Effective Code Review](https://www.youtube.com/watch?v=iNG1a--SIlk) (particularly the first half)

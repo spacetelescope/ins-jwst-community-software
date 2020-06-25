@@ -47,4 +47,3 @@ Check out some examples of release note formatting here:
 - [Photutil's CHANGES.rst](https://github.com/astropy/photutils/blob/master/CHANGES.rst)
 - [ASDF's CHANGELOG.md](https://github.com/asdf-vm/asdf/blob/master/CHANGELOG.md)
 - [Pytest's Changelog.rst](https://github.com/pytest-dev/pytest/blob/master/doc/en/changelog.rst)
-

@@ -50,7 +50,7 @@ How to write tests:
 How to run tests automatically as part of your CI builds:
 - You can set up your repository to automatically run all your tests every time you push a new commit to an open pull/merge request. In general, this is done by adding a command after your installation command that runs your tests (e.g. the command: ``pytest``) to your CI file (either ``travis.yml`` or ``Jenkinsfile``).
 - To add a testing command to Travis CI, check out [Travis's testing documentation](https://blog.travis-ci.com/2019-08-07-extensive-python-testing-on-travis-ci)
-- To add a testing command to Jenkins CI, as per the STScI Style Guide's suggestion see the [Innerspace page on Jenkins.](https://innerspace.stsci.edu/pages/viewpage.action?spaceKey=SSR&title=Users+Guide%3A+Running+Regression+Tests) In particular, scoll down to the section titled "Running Tests Using Jenkins".
+- To add a testing command to Jenkins CI, as per the STScI Style Guide's suggestion see the [Innerspace page on Jenkins](https://innerspace.stsci.edu/pages/viewpage.action?spaceKey=SSR&title=Users+Guide%3A+Running+Regression+Tests). In particular, scoll down to the section titled "Running Tests Using Jenkins".
 
 How to check test coverage (optional):
 - Developers can create coverage reports locally using [``pytest-cov``](https://pytest-cov.readthedocs.io/en/latest/readme.html) and/or [``coverage.py``](https://coverage.readthedocs.io/en/latest/)

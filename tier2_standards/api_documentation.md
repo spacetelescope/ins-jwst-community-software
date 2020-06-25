@@ -29,7 +29,7 @@ There is also some optional information that can be included, like:
 - Notes
 - References
 
-For other information that can be included in docstrings, see these [examples from NumpyDocs.](https://numpydoc.readthedocs.io/en/latest/format.html#sections)
+For other information that can be included in docstrings, see these [examples from NumpyDocs](https://numpydoc.readthedocs.io/en/latest/format.html#sections).
 
 ## How to apply this standard
 
