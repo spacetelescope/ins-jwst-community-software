@@ -8,21 +8,20 @@ Automated dependency controllers are tools that automatically detect which of yo
 
 ## Importance of this standard
 
-- Ensure your software is up-to-date with latest dependency updates
-- Ensure your software is not vulnorable to security issues from dependencies
-- Ensure users that have up-to-date dependencies installed are able to use your software
-- Helps to adhere to the software qualities perscribed by the mission office
+Automated dependency controllers help ensure that your software is up-to-date with latest third-party dependencies (e.g. ``numpy``, ``astropy``, ``pytest``, etc.), thus helping your software to continue to be maintainable as the python software exosystem evolves.  Furthermore, these tools help ensure that your software is not susceptible to security volnorabilities, especially for web frameworks.  Lastly, having periodically-updated dependencies ensures that your software continues to be installable and usable by external users who may be using fresh software environments and installations.
 
 
 ## Options for this standard
 
-- Pyup
-- Dependabot
+While there are a number of options available, we reccommend [``dependabot``](https://dependabot.com/), which is native to GitHub (and thus free for all repositories), or [``pyup``](https://pyup.io) (free for public repositories).
 
 
 ## How to apply this standard
 
-- Point to instructions to set up these services
-
+- For ``dependabot``, visit https://app.dependabot.com/auth/sign-up,  and follow the instructions to create an account and add your specific software repository.
+- For ``pyup``, visit https://pyup.io/, and follow the instructions to create an account and add your specific software repositry.
 
 ## Useful Links
+
+- The ``jwql`` repository serves as an example of a project using ``pyup``.  See the ``jwql`` ``pyup.yml`` configuration file as an example of a configuration file.
+- Some example of dependabot
