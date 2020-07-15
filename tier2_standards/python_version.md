@@ -19,18 +19,28 @@ exoctk - Supports 3.6 and 3.7
 
 ## Short description
 
+We require that all Python software 'support' python version 3.6 or higher.  We define 'support' in this context such that:
 
+- The python software is fully operational with no errors when invoked from an interpreter that uses Python 3.6 or higher,
+- Any future contributions to the software must also adhere to the above requirement
+- Any provided environment file(s) in the repository (i.e. `environment.yml`, `requirements.txt`, `setup.py`), must all list a consistent version of python.
 
 
 ## Importance of this standard
 
 
-## Options for this standard
-
 
 ## How to apply this standard
+
+For software that must be upgraded from Python 2.x to Python 3.x, the tool [`2to3`](https://docs.python.org/2/library/2to3.html) can be used to show (and optionally apply) all of the necessary changes.  For a general description of what aspects of the Python 2.x code must be changed in order to comply with Python 3.x, see the [official Python documentation on 'updating your code'](https://docs.python.org/3/howto/pyporting.html#update-your-code).
+
+For software that must be upgraded from Python<=3.5 to Python>=3.6, see
 
 - Point to documentation on differences between python versions (especially 3.6 vs 3.7)
 
 
 ## Useful Links
+
+- [`2to3`](https://docs.python.org/2/library/2to3.html)
+- Python 3.6 to 3.7 differences
+-

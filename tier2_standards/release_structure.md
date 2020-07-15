@@ -6,6 +6,8 @@ This is one of the tier 2 standards. See full list [on the overview page](README
 
 ## Short description
 
+We require that teams adopt a consistent procedure for making a new 'release' and documented said procedure somewhere within the repository and/or project documentation.  In this context, we define a 'release' as the tagging of a new software version and uploading that version of the software to either PyPI or Conda (as was required in the Tier 1 standards).
+
 
 ## Importance of this standard
 
