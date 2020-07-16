@@ -1,26 +1,25 @@
-# Project Must Define a Consistent Release Procedure
+# Project Must Define and Document a Consistent Release Procedure
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 
-- We will build two examples (one for PyPi-based project, one for conda-based project)
 
 ## Short description
 
-We require that teams adopt a consistent procedure for making a new 'release' and document said procedure somewhere within the repository and/or project documentation.  In this context, we define a 'release' as the tagging of a new software version and uploading that version of the software to either PyPI or Conda (as was part in the [Tier 1 standards](https://github.com/spacetelescope/ins-jwst-community-software/blob/master/tier1_standards/conda_or_pip.md)).
+We require that teams adopt a consistent procedure for making a new 'release' and document (or reference an existing document of) said procedure somewhere within the repository and/or project documentation.  In this context, we define a 'release' as the tagging of a new software version and uploading that version of the software to either PyPI or Conda (as was part in the [Tier 1 standards](https://github.com/spacetelescope/ins-jwst-community-software/blob/master/tier1_standards/conda_or_pip.md)).
 
 
 ## Importance of this standard
 
-Adopting a consistent release procedure has several benefits.
+Adopting a consistent, documented release procedure has several benefits:
 
-- Something about anyone on team being able perform a release
-- Consistent expectations from users on the scale of a release
-- Meaningful releases.
+- It helps to reduce the learning curve for performing releases, and thus helps to enable any current or future team member to perform a release.
+- It makes it clear to developers and users which distribution source (i.e. ``pypi`` or ``conda``) is used for releases.
+- It makes it clear to developers and users which features and/or bug fixes are part of specific versions of the software.
 
 
 ## Options for this standard
 
-Below we provide two examples of release structures, one that uses PyPI, and one that uses Conda.  We encourage teams to tweak these examples as necessary based on the specifics of your project.  Teams may also opt to create their own release structure document from scratch.
+Teams may opt to create their own custom release proceedure, reference an existing release proceedure, or adopt (and tweak as necessary) one of the two examples provided below.  One example uses ``pypi`` and the other uses ``astroconda``.
 
 Example using **PyPI**:
 
@@ -129,5 +128,6 @@ Feel free to reach out to Shannon and/or Matthew if some guidance is needed in t
 
 ## Useful Links
 
+- [Instructions for creating release notes](https://github.com/spacetelescope/ins-jwst-community-software/blob/master/tier2_standards/release_notes.md)
 - [Instructions for uploading a package to `conda` or `pip`](https://github.com/spacetelescope/ins-jwst-community-software/blob/master/tier1_standards/conda_or_pip.md#how-to-apply-this-standard)
 - [STScI Style Guide for Release Workflow](https://github.com/spacetelescope/style-guides/blob/master/guides/release-workflow.md)
