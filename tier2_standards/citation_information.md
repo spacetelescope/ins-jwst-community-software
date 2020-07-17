@@ -19,7 +19,7 @@ We require that teams choose at least one of the following options:
 - Include an appropriate description in the repository's main `README` file.
 - Include an appropriate description in the project's main documentation source (e.g. JDox, ReadTheDocs, etc.).
 
-Though not required, another great way to make your software easily citable is to register the project with [Zenodo](https://zenodo.org/).  Zenodo is an open-access tool that allows users to upload software (and any accompanying data, reports, presentations, etc.) and receive a digital object identifier (DOI) for each submission.  For more information, visit https://about.zenodo.org/, and to sing up, visit https://zenodo.org/signup/.
+Though not required, another great way to make your software easily citable is to register the project with [Zenodo](https://zenodo.org/).  Zenodo is an open-access tool that allows users to upload software (and any accompanying data, reports, presentations, etc.) and receive a digital object identifier (DOI) for each submission.  For more information, visit https://about.zenodo.org/, and to sign up, visit https://zenodo.org/signup/.
 
 
 ## How to apply this standard

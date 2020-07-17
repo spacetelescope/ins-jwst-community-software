@@ -12,35 +12,35 @@ Consistent coding standards across a piece of software improves the overall qual
 
 ## Options for this standard
 
-Python's main style guide is named the Python Enhancement Proposal #8 or "PEP8" and it defines a way of formatting Python code that is widely accepted by the community. Software teams are encouraged to follow PEP8 standards where appropriate.
+Python's main style guide is named the Python Enhancement Proposal #8 or "`PEP8`" and it defines a way of formatting Python code that is widely accepted by the community. Software teams are encouraged to follow `PEP8` standards where appropriate.
 
 Teams are allowed to deviate from these standards in certain cases, for example, ignoring a requirement that may be considered "overkill", or choosing to slightly modified standard. However, the final code base should be reasonably self-consistent and readable.
 
 Some of the standards we have already listed as overkill, but you are welcome to follow if you see fit, include:
-- W191 indentation contains tabs
-- W291 trailing whitespace
-- W292 no newline at end of file
-- W293 blank line contains whitespace
-- W391 blank line at end of file
-- W505 doc line too long
-- W605 invalid escape sequence
-- E101 indentation contains mixed spaces and tabs
-- E123 closing bracket does not match indentation of opening bracket's line
-- E124 closing bracket does not match visual indentation
-- E401 multiple imports on one line
-- E501 line too long
-- E502 the backslash is redundant
+- `W191 indentation contains tabs`
+- `W291 trailing whitespace`
+- `W292 no newline at end of file`
+- `W293 blank line contains whitespace`
+- `W391 blank line at end of file`
+- `W505 doc line too long`
+- `W605 invalid escape sequence`
+- `E101 indentation contains mixed spaces and tabs`
+- `E123 closing bracket does not match indentation of opening bracket's line`
+- `E124 closing bracket does not match visual indentation`
+- `E401 multiple imports on one line`
+- `E501 line too long`
+- `E502 the backslash is redundant`
 
 ## How to apply this standard
 
-Software teams should make an attempt to improve their code to be more in line with the PEP8 standards put forward by Python. The extent of this improvement is up the software team, but a reasonable attempt at updating the code to these standards is expected.
+Software teams should make an attempt to improve their code to be more in line with the `PEP8` standards put forward by Python. The extent of this improvement is up the software team, but a reasonable attempt at updating the code to these standards is expected.
 
-To help the teams get started, each team will be given a report detailing the current state of their repository compared to PEP8 standards (with the standards we deemed to be "overkill" listed above ignored). These types of reports can be created using Python packages that compare the contents of a file, folder, repository, etc. to PEP8 standards and return a report of any disagreements.
+To help the teams get started, each team will be given a report detailing the current state of their repository compared to `PEP8` standards (with the standards we deemed to be "overkill" listed above ignored). These types of reports can be created using Python packages that compare the contents of a file, folder, repository, etc. to `PEP8` standards and return a report of any disagreements.
 
 Teams can improve their code using some of the following methods:
 
-- Reading about [PEP8 requirements](https://www.python.org/dev/peps/pep-0008/) and checking and changing code by hand
-- Using a package that checks code style against PEP8 like [flake8](https://flake8.pycqa.org/en/latest/), [pylint](https://www.pylint.org/), [pycodestyle](https://pep8.readthedocs.io/en/latest/intro.html), etc. and changing code by hand
-- Using a package that checks and changes code to match style guides like [autopep8](https://pep8.readthedocs.io/en/latest/intro.html)
+- Reading about [`PEP8` requirements](https://www.python.org/dev/peps/pep-0008/) and checking and changing code by hand
+- Using a package that checks code style against `PEP8` like [flake8](https://flake8.pycqa.org/en/latest/), [`pylint`](https://www.pylint.org/), [pycodestyle](https://pep8.readthedocs.io/en/latest/intro.html), etc. and changing code by hand
+- Using a package that checks and changes code to match style guides like [`autopep8`](https://pep8.readthedocs.io/en/latest/intro.html)
 
-We will not be setting a percentage improvement in PEP8 adherence, but due to the mission office's strong support of this standard, we will be talking with each team about their justification for their code being improved, readable, and maintainable.
+We will not be setting a percentage improvement in `PEP8` adherence, but due to the mission office's strong support of this standard, we will be talking with each team about their justification for their code being improved, readable, and maintainable.

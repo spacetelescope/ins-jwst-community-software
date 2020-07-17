@@ -8,17 +8,17 @@ Release notes are a way to document the updates made to a code base that are inc
 
 ## Importance of this standard
 
-Release notes help both the developer and the user of a piece of software. 
+Release notes help both the developer and the user of a piece of software.
 
 Developers use release notes to track their own changes and communicate effectively with their users about why updating to the latest version of the code is particularly important. Keeping users on the latest version helps streamline bug reporting to only include real bugs that are still present in the current version of the software.
 
-Users of software can check release notes to learn about new functionality, see if any changes will affect their own code, or see if any problems they've run into were bugs that have now been fixed. 
+Users of software can check release notes to learn about new functionality, see if any changes will affect their own code, or see if any problems they've run into were bugs that have now been fixed.
 
 ## Options for this standard
 
-There are two main ways release notes can be included in a repository. 
+There are two main ways release notes can be included in a repository.
 
-- Developers can use a single .txt or .rst file to contain a running list of releases and the changes included in them. This type of file is usually named something like ``release_notes.txt``, ``changelog.txt``, or something similar, and lives either in the top level of the repository or in the ``docs/`` sub-directory. 
+- Developers can use a single .txt or .rst file to contain a running list of releases and the changes included in them. This type of file is usually named something like `release_notes.txt`, `changelog.txt`, or something similar, and lives either in the top level of the repository or in the `docs/` sub-directory.
 - If the repository uses GitHub/GitLab's releases section, they can also use the notes section provided when submitting a release. These notes will remain in the "Releases" section of GitHub/GitLab for users to look at.
 
 ## How to apply this standard
@@ -29,7 +29,7 @@ It is up to the developers to decide what information they want to include in th
 - Bug fixes
 - Compatibility changes (e.g. requires newer versions of Python or dependency packages)
 - Documentation updates
-- Infrastructure fixes (e.g. changes to setup.py files, CI files, testing improvements, etc)
+- Infrastructure fixes (e.g. changes to `setup.py` files, CI files, testing improvements, etc)
 - Known issues
 
 Developers also have options when formatting their release notes. They can include any of the following:
@@ -43,7 +43,7 @@ Developers should write release notes with their user community in mind: the wri
 ## Useful Links
 
 Check out some examples of release note formatting here:
-- [The JWST Pipeline's CHANGES.rst](https://github.com/spacetelescope/jwst/blob/master/CHANGES.rst) 
+- [The JWST Pipeline's CHANGES.rst](https://github.com/spacetelescope/jwst/blob/master/CHANGES.rst)
 - [Photutil's CHANGES.rst](https://github.com/astropy/photutils/blob/master/CHANGES.rst)
 - [ASDF's CHANGELOG.md](https://github.com/asdf-vm/asdf/blob/master/CHANGELOG.md)
 - [Pytest's Changelog.rst](https://github.com/pytest-dev/pytest/blob/master/doc/en/changelog.rst)

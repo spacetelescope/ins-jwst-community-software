@@ -13,13 +13,13 @@ We require that teams adopt a consistent procedure for making a new 'release' an
 Adopting a consistent, documented release procedure has several benefits:
 
 - It helps to reduce the learning curve for performing releases, and thus helps to enable any current or future team member to perform a release.
-- It makes it clear to developers and users which distribution source (i.e. ``pypi`` or ``conda``) is used for releases.
+- It makes it clear to developers and users which distribution source (i.e. `pypi` or `conda`) is used for releases.
 - It makes it clear to developers and users which features and/or bug fixes are part of specific versions of the software.
 
 
 ## Options for this standard
 
-Teams may opt to create their own custom release procedure, reference an existing release procedure, or adopt (and tweak as necessary) one of the two examples provided below.  One example uses ``pypi`` and the other uses ``astroconda``.
+Teams may opt to create their own custom release procedure, reference an existing release procedure, or adopt (and tweak as necessary) one of the two examples provided below.  One example uses `pypi` and the other uses `astroconda`.
 
 Example using **PyPI**:
 
@@ -49,7 +49,7 @@ In <location of release notes>, write a concise but detailed description of all 
 
 4. Open, review, and merge pull requests with the release procedure changes
 
-Once you've committed the changes from (2), (3), and (4) in your branch, push your branch to GitHub/GitLab using the upstream remote, open two pull requests: one that points to the production branch (e.g. `master`), and one that points to <develop branch>. Assign reviewers. Either you or the reviewer should eventually merge these pull requests.
+Once you've committed the changes from (2), (3), and (4) in your branch, push your branch to GitHub/GitLab using the upstream remote, open two pull requests: one that points to the production branch (e.g. master), and one that points to <develop branch>. Assign reviewers. Either you or the reviewer should eventually merge these pull requests.
 
 5. Create a new tag/release on GitHub/GitLab
 
@@ -59,8 +59,8 @@ Once the pull request into the production branch from (5) has been merged, click
 
 To upload the new tagged version of the software to PyPI, run the following:
 
-- ``python setup.py sdist bdist_wheel``
-- ``twine upload -u '$<pypi_username>' -p '$<pypi_password>' --repository-url https://upload.pypi.org/legacy/ --skip-existing dist/*``
+- python setup.py sdist bdist_wheel
+- twine upload -u '$<pypi_username>' -p '$<pypi_password>' --repository-url https://upload.pypi.org/legacy/ --skip-existing dist/*
 ```
 
 Example using **astroconda**:
@@ -73,7 +73,7 @@ The <project> team performs a software release at <some occasion>. We employ the
     3. Update the release notes
     4. Open, review, and merge pull request with the release procedure changes
     5. Create a new tag/release on GitHub/GitLab
-    6. Upload new version of software to ``astroconda``
+    6. Upload new version of software to astroconda
 
 Detailed instructions for performing a release are given below:
 
@@ -91,24 +91,24 @@ In <location of release notes>, write a concise but detailed description of all 
 
 4. Open, review, and merge pull requests with the release procedure changes
 
-Once you've committed the changes from (2), (3), and (4) in your branch, push your branch to GitHub/GitLab using the upstream remote, open two pull requests: one that points to the production branch (e.g. `master`), and one that points to <develop branch>. Assign reviewers. Either you or the reviewer should eventually merge these pull requests.
+Once you've committed the changes from (2), (3), and (4) in your branch, push your branch to GitHub/GitLab using the upstream remote, open two pull requests: one that points to the production branch (e.g. master), and one that points to <develop branch>. Assign reviewers. Either you or the reviewer should eventually merge these pull requests.
 
 5. Create a new tag/release on GitHub/GitLab
 
 Once the pull request into the production branch from (5) has been merged, click on the releases button on the main page of the repository, then hit the "Draft a new release button". The "Tag version" should be the version number of the release, the "Target" should be the production branch, the "Release title" should (also) be the version number of the release, and the "Description" should match that of the changelog entry in (4). Once all of that information is added, hit the big green "Publish" release button.
 
-6. Upload new version of software to ``astroconda``
+6. Upload new version of software to astroconda
 
-To upload the new tagged version of the software to ``astroconda``, run the following:
+To upload the new tagged version of the software to astroconda, run the following:
 
-- ``cd astroconda-contrib``
-- ``git checkout -tb update-<my_package> master``
+- cd astroconda-contrib
+- git checkout -tb update-<my_package> master
 - Open <my_package>/meta.yaml in text editor
 - Modify {% set version = '<version>' %}, close, and save
-- ``conda build -c http://ssb.stsci.edu/astroconda --skip-existing --python=<python_version> <my_package>``
-- ``git add <my_package>/meta.yaml``
-- ``git commit -m 'Updated <my_package> <old_version> -> <new_version>'``
-- ``git push origin update-<my_package>``
+- conda build -c http://ssb.stsci.edu/astroconda --skip-existing --python=<python_version> <my_package>
+- git add <my_package>/meta.yaml
+- git commit -m 'Updated <my_package> <old_version> -> <new_version>'
+- git push origin update-<my_package>
 - In a broswer, navigate to  https://github.com/<your_accnount>/astroconda-contrib/tree/update-<my_package>
 - Click the “New pull request” button
 - Fill out the pull request form

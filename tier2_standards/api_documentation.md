@@ -13,11 +13,12 @@ Docstrings for the modules, classes, and/or functions in your code serve a varie
 - Allow users to better understand how the software works and how to use it
 - Improve the overall readability of code and decrease on-boarding time for new developers
 - Can be more easily accessed than other kinds of comments due to their formatting, either through the `help()` function or `__doc__` attribute or by being ported to online documentation
+
 ## Options for this standard
 
-Python has a style guide specifically for docstrings called [PEP257](https://www.python.org/dev/peps/pep-0257/) (where PEP stands for Python Enhancement Proposal). PEP-257 gives an overview of what docstrings are and how they should be formatted.
+Python has a style guide specifically for docstrings called [`PEP257`](https://www.python.org/dev/peps/pep-0257/) (where PEP stands for Python Enhancement Proposal). `PEP-257` gives an overview of what docstrings are and how they should be formatted.
 
-There is also a more in-depth document on formatting docstrings called [NumpyDocs](https://numpydoc.readthedocs.io/en/latest/format.html). This is the formatting recommended by the [STScI Style Guide](https://github.com/spacetelescope/style-guides/blob/master/guides/python.md#docstrings). 
+There is also a more in-depth document on formatting docstrings called [NumpyDocs](https://numpydoc.readthedocs.io/en/latest/format.html). This is the formatting recommended by the [STScI Style Guide](https://github.com/spacetelescope/style-guides/blob/master/guides/python.md#docstrings).
 
 No matter the formatting, there are certain pieces of information that should be included in docstrings:
 - A brief overview of what the object is/does
@@ -35,7 +36,7 @@ For other information that can be included in docstrings, see these [examples fr
 
 All of the modules, functions, classes, and/or methods in your code base should be accompanied by a docstring.
 
-If docstrings already exist in your code base, we will not force you to change the formatting, only to make sure that the formatting is self-consistent and all of the information discussed above is included when relevant. If you are newly adding docstrings, we highly recommend you follow the NumpyDocs and PEP257 style.
+If docstrings already exist in your code base, we will not force you to change the formatting, only to make sure that the formatting is self-consistent and all of the information discussed above is included when relevant. If you are newly adding docstrings, we highly recommend you follow the NumpyDocs and `PEP257` style.
 
 If developers feel it is appropriate, they may want to make the docstrings easier to find for users by compiling and placing them in their main documentation. This can be done using [Sphinx](https://www.sphinx-doc.org/en/master/index.html) to build their documentation and using one of the following plugins to automatically include the docstrings:
 

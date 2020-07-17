@@ -36,29 +36,29 @@ We have summarized our requirements and recommendations for this tier 2 standard
   - We require some if not all of the tests are run in Continuous Integration (CI) builds
   - We will require a meeting where teams can describe/demonstrate their testing structure and explain why the level of testing is acceptable for their software
 - We are recommending the following:
-  - We strongly recommend common automated testing tools. The STScI Style Guide recommends ``pytest`` so we will recommend this as well, but teams do have other options like ``unittest`` or ``nosetest``.
+  - We strongly recommend common automated testing tools. The STScI Style Guide recommends `pytest` so we will recommend this as well, but teams do have other options like `unittest` or `nosetest`.
   - We recommend teams include a mixture of unit, integration, and end-to-end tests as applicable for their software
 
 ## How to apply this standard
 
 How to write tests:
 - Keep in mind that the goal when writing tests is to have code that you would want to run that would confirm that your software is still working after you made a large change.
-- Check out the extensive ``pyest`` documentation online. See their [main documentation page](https://docs.pytest.org/en/stable/index.html) for an introduction to writing tests.
+- Check out the extensive `pyest` documentation online. See their [main documentation page](https://docs.pytest.org/en/stable/index.html) for an introduction to writing tests.
 - Check out the [STScI Style Guide's documentation on Python testing](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md/#testing-python-packages) for information on things like framework options, testing layout, and ideas for what to test.
-- Use a self-consistent format when writing tests. Tests are usually formatted as functions or classes and usually live in files named ``test_<what-is-tested>.py`` in their own sub-directory named ``tests`` inside your repository (e.g. ``repo-name/repo-name/tests/test_conversions.py``)
+- Use a self-consistent format when writing tests. Tests are usually formatted as functions or classes and usually live in files named `test_<what-is-tested>.py` in their own sub-directory named `tests` inside your repository (e.g. `repo-name/repo-name/tests/test_conversions.py`)
 
 How to run tests automatically as part of your CI builds:
-- You can set up your repository to automatically run all your tests every time you push a new commit to an open pull/merge request. In general, this is done by adding a command after your installation command that runs your tests (e.g. the command: ``pytest``) to your CI file (either ``travis.yml`` or ``Jenkinsfile``).
+- You can set up your repository to automatically run all your tests every time you push a new commit to an open pull/merge request. In general, this is done by adding a command after your installation command that runs your tests (e.g. the command: `pytest`) to your CI file (either `travis.yml` or `Jenkinsfile`).
 - To add a testing command to Travis CI, check out [Travis's testing documentation](https://blog.travis-ci.com/2019-08-07-extensive-python-testing-on-travis-ci)
 - To add a testing command to Jenkins CI, as per the STScI Style Guide's suggestion see the [Innerspace page on Jenkins](https://innerspace.stsci.edu/pages/viewpage.action?spaceKey=SSR&title=Users+Guide%3A+Running+Regression+Tests). In particular, scroll down to the section titled "Running Tests Using Jenkins".
 
 How to check test coverage (optional):
-- Developers can create coverage reports locally using [``pytest-cov``](https://pytest-cov.readthedocs.io/en/latest/readme.html) and/or [``coverage.py``](https://coverage.readthedocs.io/en/latest/)
-- Developers can create coverage reports automatically as part of their continuous integration setup in their repository using a package like ``CodeCov`` or ``Coveralls``. See the STScI Style Guide's recommendation [here](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md/#automated-test-code-coverage)
+- Developers can create coverage reports locally using [`pytest-cov`](https://pytest-cov.readthedocs.io/en/latest/readme.html) and/or [`coverage.py`](https://coverage.readthedocs.io/en/latest/)
+- Developers can create coverage reports automatically as part of their continuous integration setup in their repository using a package like `CodeCov` or `Coveralls`. See the STScI Style Guide's recommendation [here](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md/#automated-test-code-coverage)
 
 ## Useful Links
 
-- [A comprehensive list of ``pytest`` examples](https://docs.pytest.org/en/stable/example/index.html)
+- [A comprehensive list of `pytest` examples](https://docs.pytest.org/en/stable/example/index.html)
 - [STScI's main python testing page](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md)
 - [Unittest documentation](https://docs.python.org/3/library/unittest.html)
 - [Nosetest documentation](https://nose.readthedocs.io/en/latest/)
