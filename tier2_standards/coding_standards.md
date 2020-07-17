@@ -35,9 +35,9 @@ Some of the standards we have already listed as overkill, but you are welcome to
 
 Software teams should make an attempt to improve their code to be more in line with the PEP8 standards put forward by Python. The extent of this improvement is up the software team, but a reasonable attempt at updating the code to these standards is expected.
 
-To help the teams get started, each team will be given a report detailing the current state of their repository compared to PEP8 standards (with the standards we deemed to be "overkill" listed above ignored). These types of reports can be created using Python packages that compare the contents of a file, folder, repository, etc to PEP8 standards and return a report of any disagreements.
+To help the teams get started, each team will be given a report detailing the current state of their repository compared to PEP8 standards (with the standards we deemed to be "overkill" listed above ignored). These types of reports can be created using Python packages that compare the contents of a file, folder, repository, etc. to PEP8 standards and return a report of any disagreements.
 
-Teams can improve their code using some of the following methods: 
+Teams can improve their code using some of the following methods:
 
 - Reading about [PEP8 requirements](https://www.python.org/dev/peps/pep-0008/) and checking and changing code by hand
 - Using a package that checks code style against PEP8 like [flake8](https://flake8.pycqa.org/en/latest/), [pylint](https://www.pylint.org/), [pycodestyle](https://pep8.readthedocs.io/en/latest/intro.html), etc. and changing code by hand

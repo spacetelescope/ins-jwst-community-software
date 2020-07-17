@@ -4,7 +4,7 @@ This is one of the tier 2 standards. See full list [on the overview page](README
 
 ## Short description
 
-Code review is the practice of one or more developers checking another developer's work to find any issues and/or improve the code. 
+Code review is the practice of one or more developers checking another developer's work to find any issues and/or improve the code.
 
 ## Importance of this standard
 
@@ -18,7 +18,7 @@ Whenever a pull request or merge request is submitted, we are requiring that som
 - [Assigning a reviewer on GitHub](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/requesting-a-pull-request-review)
 - [Assigning a reviewer on GitLab](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html)
 
-One way to confirm these types of reviews happen is to make it mandatory before any pull/merge request is merged into the code base. While this is not required, it is highly reccomended. This can be done for GitHub or GitLab by following instructions here:
+One way to confirm these types of reviews happen is to make it mandatory before any pull/merge request is merged into the code base. While this is not required, it is highly recommended. This can be done for GitHub or GitLab by following instructions here:
 - [Require code review for PRs in GitHub](https://help.github.com/en/enterprise/2.13/user/articles/enabling-required-reviews-for-pull-requests)
 - [Require code review for MRs in GitLab](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html)
 
@@ -35,7 +35,7 @@ Some of the things reviewers can look for in their reviews of pull/merge request
 - Checking the code matches PEP8 and/or the software's style guide
 - Checking there are tests and documentation written for any new code
 
-Something to remember is that all parties should be conscious of staying polite and respectful while participating in a review. Code reviews can quickly become ineffective if the reviewer is disrespectful or the developer is not willing to make changes. Code review should be a time to put egos aside for the sake of good code. See the "Useful Links" section below for a video of a conference talk on how to keep code reviews effective. 
+Something to remember is that all parties should be conscious of staying polite and respectful while participating in a review. Code reviews can quickly become ineffective if the reviewer is disrespectful or the developer is not willing to make changes. Code review should be a time to put egos aside for the sake of good code. See the "Useful Links" section below for a video of a conference talk on how to keep code reviews effective.
 
 ## Useful Links
 

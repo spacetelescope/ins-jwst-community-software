@@ -19,12 +19,12 @@ Adopting a consistent, documented release procedure has several benefits:
 
 ## Options for this standard
 
-Teams may opt to create their own custom release proceedure, reference an existing release proceedure, or adopt (and tweak as necessary) one of the two examples provided below.  One example uses ``pypi`` and the other uses ``astroconda``.
+Teams may opt to create their own custom release procedure, reference an existing release procedure, or adopt (and tweak as necessary) one of the two examples provided below.  One example uses ``pypi`` and the other uses ``astroconda``.
 
 Example using **PyPI**:
 
 ```
-The <project> team performs a software release at <some occaison>. We employ the following procedure for creating a new release:
+The <project> team performs a software release at <some occasion>. We employ the following procedure for creating a new release:
 
     1. Create a new branch for changes related to the version release procedure
     2. Update appropriate version numbers in <locations that store the version number>,
@@ -66,7 +66,7 @@ To upload the new tagged version of the software to PyPI, run the following:
 Example using **astroconda**:
 
 ```
-The <project> team performs a software release at <some occaison>. We employ the following procedure for creating a new release:
+The <project> team performs a software release at <some occasion>. We employ the following procedure for creating a new release:
 
     1. Create a new branch for changes related to the version release procedure
     2. Update appropriate version numbers in <locations that store the version number>,
