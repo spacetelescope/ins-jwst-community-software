@@ -4,7 +4,7 @@ This is one of the tier 2 standards. See full list [on the overview page](README
 
 ## Short description
 
-Software tests are pieces of code, often functions or classes, that are written to check that different parts of a code base as working as expected.
+Software tests are pieces of code, often functions or classes, that are written to check that different parts of a code base are working as expected.
 
 ## Importance of this standard
 
@@ -31,7 +31,7 @@ We are not requiring software to have 100% testing coverage - it is not only unr
 
 We have summarized our requirements and recommendations for this tier 2 standard below:
 - We are requiring the following:
-  - We require at least some automated tests to exist for the code base and live in the software repository
+  - We require at least some automated tests exist for the code base and live in the software repository
   - We require that these tests cover the main functionality of the software at a minimum
   - We require some if not all of the tests are run in Continuous Integration (CI) builds
   - We will require a meeting where teams can describe/demonstrate their testing structure and explain why the level of testing is acceptable for their software
@@ -43,7 +43,7 @@ We have summarized our requirements and recommendations for this tier 2 standard
 
 How to write tests:
 - Keep in mind that the goal when writing tests is to have code that you would want to run that would confirm that your software is still working after you made a large change.
-- Check out the extensive `pyest` documentation online. See their [main documentation page](https://docs.pytest.org/en/stable/index.html) for an introduction to writing tests.
+- Check out the extensive `pytest` documentation online. See their [main documentation page](https://docs.pytest.org/en/stable/index.html) for an introduction to writing tests.
 - Check out the [STScI Style Guide's documentation on Python testing](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md/#testing-python-packages) for information on things like framework options, testing layout, and ideas for what to test.
 - Use a self-consistent format when writing tests. Tests are usually formatted as functions or classes and usually live in files named `test_<what-is-tested>.py` in their own sub-directory named `tests` inside your repository (e.g. `repo-name/repo-name/tests/test_conversions.py`)
 

@@ -19,7 +19,7 @@ While we do not require teams to use any specific workflow, we highly recommend 
 
 ## How to apply this standard
 
-We require that the chosen `git` workflow is fully documented somewhere within the purview of the repository.  If teams opt to use a workflow that is already documented elsewhere (e.g. the 'branching' or 'forking' workflow in STScI Style Guides), they may simply add a small statement somewhere within their project documentation (e.g. `README`, a GitHub wiki page, etc.) that indicates which workflow is being used, with appropriate links to the existing documentation.  If teams opt to use a custom workflow, we require that the project documentation contain a full description of the workflow, with step-by-step instructions on how to apply it (similar to the Style Guides workflows).
+We require that the chosen `git` workflow is fully documented somewhere within the purview of the repository (e.g. the repository's `README`, a GitHub wiki page, etc.).  If teams opt to use a workflow that is already documented elsewhere (e.g. the 'branching' or 'forking' workflow in STScI Style Guides), they may simply add a small statement somewhere within their project documentation that indicates which workflow is being used, with appropriate links to the existing documentation.  If teams opt to use a custom workflow, we require that the project documentation contain a full description of the workflow, with step-by-step instructions on how to apply it (similar to the Style Guides workflows).
 
 
 ## Useful Links

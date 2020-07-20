@@ -10,7 +10,7 @@ A Code of Conduct is a document that defines the standards of the developer and 
 
 Code of Conduct files help to ensure ethical behavior within a software team and create an environment that is safe and respectful. It also serves as a document that can be referred to in case of incidents.
 
-However, a Code of Conduct is only as good as its enforcement. As you are choosing one, make sure you understand its implications and think about how you will execute its terms  if it is violated.
+However, a Code of Conduct is only as good as its enforcement. As you are choosing one, make sure you understand its implications and think about how you will execute its terms if it is violated.
 
 ## Options for this standard
 

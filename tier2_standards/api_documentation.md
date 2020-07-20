@@ -12,7 +12,7 @@ Docstrings for the modules, classes, and/or functions in your code serve a varie
 - Act as formalized, proper documentation
 - Allow users to better understand how the software works and how to use it
 - Improve the overall readability of code and decrease on-boarding time for new developers
-- Can be more easily accessed than other kinds of comments due to their formatting, either through the `help()` function or `__doc__` attribute or by being ported to online documentation
+- Can be more easily accessed than other kinds of comments due to their formatting, either through the `help()` function, `__doc__` attribute, or by being ported to online documentation
 
 ## Options for this standard
 
@@ -36,7 +36,7 @@ For other information that can be included in docstrings, see these [examples fr
 
 All of the modules, functions, classes, and/or methods in your code base should be accompanied by a docstring.
 
-If docstrings already exist in your code base, we will not force you to change the formatting, only to make sure that the formatting is self-consistent and all of the information discussed above is included when relevant. If you are newly adding docstrings, we highly recommend you follow the NumpyDocs and `PEP257` style.
+If docstrings already exist in your code base, we will not force you to change the formatting, only to make sure that the formatting is self-consistent and all of the information discussed above is included when relevant. If you are adding docstrings for the first time, we highly recommend you follow the NumpyDocs and `PEP257` style.
 
 If developers feel it is appropriate, they may want to make the docstrings easier to find for users by compiling and placing them in their main documentation. This can be done using [Sphinx](https://www.sphinx-doc.org/en/master/index.html) to build their documentation and using one of the following plugins to automatically include the docstrings:
 

@@ -18,7 +18,7 @@ Users of software can check release notes to learn about new functionality, see 
 
 There are two main ways release notes can be included in a repository.
 
-- Developers can use a single .txt or .rst file to contain a running list of releases and the changes included in them. This type of file is usually named something like `release_notes.txt`, `changelog.txt`, or something similar, and lives either in the top level of the repository or in the `docs/` sub-directory.
+- Developers can use a single `.txt` or `.rst` file to contain a running list of releases and the changes included in them. This type of file is usually named something like `release_notes.txt`, `changelog.txt`, or something similar, and lives either in the top level of the repository or in the `docs/` sub-directory.
 - If the repository uses GitHub/GitLab's releases section, they can also use the notes section provided when submitting a release. These notes will remain in the "Releases" section of GitHub/GitLab for users to look at.
 
 ## How to apply this standard

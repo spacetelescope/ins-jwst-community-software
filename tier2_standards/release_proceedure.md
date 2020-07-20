@@ -14,12 +14,12 @@ Adopting a consistent, documented release procedure has several benefits:
 
 - It helps to reduce the learning curve for performing releases, and thus helps to enable any current or future team member to perform a release.
 - It makes it clear to developers and users which distribution source (i.e. `pypi` or `conda`) is used for releases.
-- It makes it clear to developers and users which features and/or bug fixes are part of specific versions of the software.
+- By maintaining release notes, it makes it clear to developers and users which features and/or bug fixes are part of specific versions of the software. (For more information, see the [Release Notes Tier 2 standard](release_notes.md))
 
 
 ## Options for this standard
 
-Teams may opt to create their own custom release procedure, reference an existing release procedure, or adopt (and tweak as necessary) one of the two examples provided below.  One example uses `pypi` and the other uses `astroconda`.
+Teams may opt to create their own custom release procedure, reference an existing release procedure, or tweak as necessary one of the two examples provided below.  One example uses `pypi` and the other uses `astroconda`.
 
 Example using **PyPI**:
 

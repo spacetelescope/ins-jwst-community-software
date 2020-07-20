@@ -4,7 +4,7 @@ This is one of the tier 2 standards. See full list [on the overview page](README
 
 ## Short description
 
-We require that project documentation or repository contain a description of how to properly cite the project in publications and/or other software.
+We require that the project documentation or repository contains a description of how to properly cite the project in publications and/or other software.
 
 
 ## Importance of this standard
