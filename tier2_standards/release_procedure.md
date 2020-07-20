@@ -2,11 +2,9 @@
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 
-
 ## Short description
 
 We require that teams adopt a consistent procedure for making a new 'release' and document (or reference an existing document of) said procedure somewhere within the repository and/or project documentation.  In this context, we define a 'release' as the tagging of a new software version and uploading that version of the software to either PyPI or Conda (as was part in the [Tier 1 standards](https://github.com/spacetelescope/ins-jwst-community-software/blob/master/tier1_standards/conda_or_pip.md)).
-
 
 ## Importance of this standard
 
@@ -16,10 +14,9 @@ Adopting a consistent, documented release procedure has several benefits:
 - It makes it clear to developers and users which distribution source (i.e. `pypi` or `conda`) is used for releases.
 - By maintaining release notes, it makes it clear to developers and users which features and/or bug fixes are part of specific versions of the software. (For more information, see the [Release Notes Tier 2 standard](release_notes.md))
 
-
 ## Options for this standard
 
-Teams may opt to create their own custom release procedure, reference an existing release procedure, or tweak as necessary one of the two examples provided below.  One example uses `pypi` and the other uses `astroconda`.
+Teams may opt to create their own custom release procedure, reference an existing release procedure, or tweak as necessary one of the two examples provided below.  One example releases on `pypi` and the other on `astroconda`.
 
 Example using **PyPI**:
 
@@ -37,11 +34,11 @@ Detailed instructions for performing a release are given below:
 
 1. Create a new branch for changes related to the version release procedure
 
-Make sure that your local version of the <develop branch> is up-to-date. A new branch with the naming convention vx.y.z should be opened off of the <develop branch>, where x.y.z is the version number of the release (e.g. v0.4.1). This branch should be used for the changes described in the rest of this document.
+Make sure that your local version of the <develop branch> is up-to-date. A new branch with the naming convention vx.y.z should be opened off of the <develop branch>, where vx.y.z is the version number of the release (e.g. v0.4.1). This branch should be used for the changes described in the rest of this document.
 
 2. Update the version number in <locations that store the version number>
 
-The VERSION variable in setup.py should be updated to the new version number, using the x.y.z convention.  <Update any other locations of hard-coded version numbers>
+<Update all locations of hard-coded version numbers. For example, the VERSION variable in setup.py should be updated to the new version number, using the x.y.z convention.>
 
 3. Update the release notes
 
@@ -79,11 +76,11 @@ Detailed instructions for performing a release are given below:
 
 1. Create a new branch for changes related to the version release procedure
 
-Make sure that your local version of the <develop branch> is up-to-date. A new branch with the naming convention vx.y.z should be opened off of the <develop branch>, where x.y.z is the version number of the release (e.g. v0.4.1). This branch should be used for the changes described in the rest of this document.
+Make sure that your local version of the <develop branch> is up-to-date. A new branch with the naming convention vx.y.z should be opened off of the <develop branch>, where vx.y.z is the version number of the release (e.g. v0.4.1). This branch should be used for the changes described in the rest of this document.
 
 2. Update the version number in <locations that store the version number>
 
-The VERSION variable in setup.py should be updated to the new version number, using the x.y.z convention.  <Update any other locations of hard-coded version numbers>
+<Update all locations of hard-coded version numbers. For example, the VERSION variable in setup.py should be updated to the new version number, using the x.y.z convention.>
 
 3. Update the release notes
 
@@ -105,7 +102,7 @@ To upload the new tagged version of the software to astroconda, run the followin
 - git checkout -tb update-<my_package> master
 - Open <my_package>/meta.yaml in text editor
 - Modify {% set version = '<version>' %}, close, and save
-- conda build -c http://ssb.stsci.edu/astroconda --skip-existing --python=<python_version> <my_package>
+- Run conda build -c http://ssb.stsci.edu/astroconda --skip-existing --python=<python_version> <my_package> and verify it passes without error
 - git add <my_package>/meta.yaml
 - git commit -m 'Updated <my_package> <old_version> -> <new_version>'
 - git push origin update-<my_package>
@@ -114,7 +111,6 @@ To upload the new tagged version of the software to astroconda, run the followin
 - Fill out the pull request form
 - Click the green “Create pull request” button
 ```
-
 
 ## How to apply this standard
 

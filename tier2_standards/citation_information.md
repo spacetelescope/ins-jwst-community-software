@@ -6,10 +6,9 @@ This is one of the tier 2 standards. See full list [on the overview page](README
 
 We require that the project documentation or repository contains a description of how to properly cite the project in publications and/or other software.
 
-
 ## Importance of this standard
 
-Unlike journal articles, software repositories do not have a clear title page or list of authors.  Providing a citation description makes it easier (and encourages) for users to correctly cite your software in publications and acknowledgements.
+Unlike journal articles, software repositories do not have a clear title page or list of authors.  Providing a citation description makes it easier for (and encourages) users to correctly cite your software in publications and acknowledgements.
 
 ## Options for this standard
 
@@ -20,7 +19,6 @@ We require that teams choose at least one of the following options:
 - Include an appropriate description in the project's main documentation source (e.g. JDox, ReadTheDocs, etc.).
 
 Though not required, another great way to make your software easily citable is to register the project with [Zenodo](https://zenodo.org/).  Zenodo is an open-access tool that allows users to upload software (and any accompanying data, reports, presentations, etc.) and receive a digital object identifier (DOI) for each submission.  For more information, visit https://about.zenodo.org/, and to sign up, visit https://zenodo.org/signup/.
-
 
 ## How to apply this standard
 
@@ -49,7 +47,6 @@ Recommended BibTeX entries for the above citations are:
       doi = {<thedoi>},
 }
 ```
-
 
 ## Useful Links
 
