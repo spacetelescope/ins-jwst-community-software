@@ -16,7 +16,7 @@ Python's main style guide is named the Python Enhancement Proposal #8 or "`PEP8`
 
 Teams are allowed to deviate from these standards in certain cases, for example, ignoring a requirement that may be considered "overkill", or choosing to slightly modified standard. However, the final code base should be reasonably self-consistent and readable.
 
-Some of the standards we have already listed as overkill, but you are welcome to follow if you see fit, include:
+Below are a list of standards that we have identified as 'overkill'.  Teams may choose to ignore them if they see fit:
 - `W191 indentation contains tabs`
 - `W291 trailing whitespace`
 - `W292 no newline at end of file`

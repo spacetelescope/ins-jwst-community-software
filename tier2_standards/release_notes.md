@@ -4,7 +4,7 @@ This is one of the tier 2 standards. See full list [on the overview page](README
 
 ## Short description
 
-Release notes are a way to document the updates made to a code base that are included in a release. They serve as a documented history of the software and are updated before every release.
+Release notes are a way to document the updates made to a code base that are included in a release. They serve as a documented history of the software and are updated during every release.
 
 ## Importance of this standard
 

@@ -30,6 +30,11 @@ There is also some optional information that can be included, like:
 - Notes
 - References
 
+Furthermore, module docstrings should contain:
+- An overview of what the module is/does
+- A list of authors that have contributed to the module
+- A "use" section that describes how a user may import and/or execute the module.
+
 For other information that can be included in docstrings, see these [examples from NumpyDocs](https://numpydoc.readthedocs.io/en/latest/format.html#sections).
 
 ## How to apply this standard

@@ -4,7 +4,7 @@ This is one of the tier 2 standards. See full list [on the overview page](README
 
 ## Short description
 
-A Code of Conduct is a document that defines the standards of the developer and user community and outlines how someone should behave when they engage with the community. They usually cover how to respectfully contribute to the software, how to address any problems that may arise, and aim to create an inclusive environment for all involved.
+A Code of Conduct is a document that defines the social standards of the developer and user community and outlines how someone should behave when they engage with the community. They usually cover how to respectfully contribute to the software, how to address any problems that may arise, and aim to create an inclusive environment for all involved.
 
 ## Importance of this standard
 
