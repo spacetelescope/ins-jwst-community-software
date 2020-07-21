@@ -22,28 +22,30 @@ Though not required, another great way to make your software easily citable is t
 
 ## How to apply this standard
 
-Teams may create a citation description that is best suited for their project.  Below, we provide an example description, taken from the [STScI Style Guides](https://github.com/spacetelescope/style-guides/blob/master/templates/CITATION):
+Teams may create a citation description that is best suited for their project.  Below, we provide an example description, inspired from the one provided in [STScI Style Guides](https://github.com/spacetelescope/style-guides/blob/master/templates/CITATION).  Teams may tweak this example as they see fit for their project.
 
 ```
-If you use <package> for work/research presented in a publication (whether
-directly, or as a dependency to another package), we recommend and encourage
+If you use <project_name> for work/research presented in a publication,
+or as a dependency in a software package, we recommend and encourage
 the following acknowledgment:
 
-  <add acknowledgement>
+  <acknowledgement>
 
-We encourage you to also include citations to the papers in the main text
-wherever appropriate.
+We encourage you to also include citations in publications wherever
+appropriate:
 
-Recommended BibTeX entries for the above citations are:
+  <citation>
+
+Recommended BibTeX entries for the above citation(s) are:
 
 @ARTICLE{<reference>,
    author = {authors},
-    title = "title",
-  journal = "journal",
+    title = <title>,
+  journal = <journal>,
  keywords = {keyword1, keyword2},
-     year = 2019,
-    month = jan,
-   volume = 1,
+     year = <year>,
+    month = <month>,
+   volume = <volume>,
       doi = {<thedoi>},
 }
 ```

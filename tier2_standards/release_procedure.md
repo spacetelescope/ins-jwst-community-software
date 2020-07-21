@@ -11,8 +11,9 @@ We require that teams adopt a consistent procedure for making a new 'release' an
 Adopting a consistent, documented release procedure has several benefits:
 
 - It helps to reduce the learning curve for performing releases, and thus helps to enable any current or future team member to perform a release.
-- It makes it clear to developers and users which distribution source (i.e. `pypi` or `conda`) is used for releases.
-- By maintaining release notes, it makes it clear to developers and users which features and/or bug fixes are part of specific versions of the software. (For more information, see the [Release Notes Tier 2 standard](release_notes.md))
+- It makes it clear to contributors which distribution source (i.e. `pypi` or `conda`) is used for releases.
+- It may serve as a reminder
+- It serves as an explicit reminder to update/maintain release notes and tagged versions of the software. (For more information, see the [Release Notes Tier 2 standard](release_notes.md) and the [Versioned Releases Tier 1 standard](https://github.com/spacetelescope/ins-jwst-community-software/blob/master/tier1_standards/versioned_releases.md)).
 
 ## Options for this standard
 
@@ -21,7 +22,8 @@ Teams may opt to create their own custom release procedure, reference an existin
 Example using **PyPI**:
 
 ```
-The <project> team performs a software release at <some occasion>. We employ the following procedure for creating a new release:
+The <project> team performs a software release at <some occasion>. We employ the following procedure for creating
+a new release:
 
     1. Create a new branch for changes related to the version release procedure
     2. Update appropriate version numbers in <locations that store the version number>,
@@ -34,36 +36,50 @@ Detailed instructions for performing a release are given below:
 
 1. Create a new branch for changes related to the version release procedure
 
-Make sure that your local version of the <develop branch> is up-to-date. A new branch with the naming convention vx.y.z should be opened off of the <develop branch>, where vx.y.z is the version number of the release (e.g. v0.4.1). This branch should be used for the changes described in the rest of this document.
+Make sure that your local version of the <develop branch> is up-to-date. A new branch with the naming convention
+vx.y.z should be opened off of the <develop branch>, where vx.y.z is the version number of the release
+(e.g. v0.4.1). This branch should be used for the changes described in the rest of this document.
 
 2. Update the version number in <locations that store the version number>
 
-<Update all locations of hard-coded version numbers. For example, the VERSION variable in setup.py should be updated to the new version number, using the x.y.z convention.>
+<Update all locations of hard-coded version numbers. For example, the VERSION variable in setup.py should be
+updated to the new version number, using the x.y.z convention.>
 
 3. Update the release notes
 
-In <location of release notes>, write a concise but detailed description of all of the notable changes that have occurred since the last release. One way to acquire this information is to scroll through the commit history of the project, and look for commits in which a pull request was merged.
+In <location of release notes>, write a concise but detailed description of all of the notable changes that have
+occurred since the last release. One way to acquire this information is to scroll through the commit history of
+the project, and look for commits in which a pull request was merged.
 
 4. Open, review, and merge pull requests with the release procedure changes
 
-Once you've committed the changes from (2), (3), and (4) in your branch, push your branch to GitHub/GitLab using the upstream remote, open two pull requests: one that points to the production branch (e.g. master), and one that points to <develop branch>. Assign reviewers. Either you or the reviewer should eventually merge these pull requests.
+Once you've committed the changes from (2), (3), and (4) in your branch, push your branch to GitHub/GitLab using
+the upstream remote, open two pull requests: one that points to the production branch (e.g. master), and one
+that points to <develop branch>. Assign reviewers. Either you or the reviewer should eventually merge these pull
+requests.
 
 5. Create a new tag/release on GitHub/GitLab
 
-Once the pull request into the production branch from (5) has been merged, click on the releases button on the main page of the repository, then hit the "Draft a new release button". The "Tag version" should be the version number of the release, the "Target" should be the production branch, the "Release title" should (also) be the version number of the release, and the "Description" should match that of the changelog entry in (4). Once all of that information is added, hit the big green "Publish" release button.
+Once the pull request into the production branch from (5) has been merged, click on the releases button on the
+main page of the repository, then hit the "Draft a new release button". The "Tag version" should be the version
+number of the release, the "Target" should be the production branch, the "Release title" should (also) be the
+version number of the release, and the "Description" should match that of the changelog entry in (4). Once all
+of that information is added, hit the big green "Publish" release button.
 
 6. Upload new version of software to PyPI
 
 To upload the new tagged version of the software to PyPI, run the following:
 
 - python setup.py sdist bdist_wheel
-- twine upload -u '$<pypi_username>' -p '$<pypi_password>' --repository-url https://upload.pypi.org/legacy/ --skip-existing dist/*
+- twine upload -u '$<pypi_username>' -p '$<pypi_password>' --repository-url https://upload.pypi.org/legacy/
+  --skip-existing dist/*
 ```
 
 Example using **astroconda**:
 
 ```
-The <project> team performs a software release at <some occasion>. We employ the following procedure for creating a new release:
+The <project> team performs a software release at <some occasion>. We employ the following procedure for creating
+a new release:
 
     1. Create a new branch for changes related to the version release procedure
     2. Update appropriate version numbers in <locations that store the version number>,
@@ -76,23 +92,35 @@ Detailed instructions for performing a release are given below:
 
 1. Create a new branch for changes related to the version release procedure
 
-Make sure that your local version of the <develop branch> is up-to-date. A new branch with the naming convention vx.y.z should be opened off of the <develop branch>, where vx.y.z is the version number of the release (e.g. v0.4.1). This branch should be used for the changes described in the rest of this document.
+Make sure that your local version of the <develop branch> is up-to-date. A new branch with the naming convention
+vx.y.z should be opened off of the <develop branch>, where vx.y.z is the version number of the release
+(e.g. v0.4.1). This branch should be used for the changes described in the rest of this document.
 
 2. Update the version number in <locations that store the version number>
 
-<Update all locations of hard-coded version numbers. For example, the VERSION variable in setup.py should be updated to the new version number, using the x.y.z convention.>
+<Update all locations of hard-coded version numbers. For example, the VERSION variable in setup.py should be
+updated to the new version number, using the x.y.z convention.>
 
 3. Update the release notes
 
-In <location of release notes>, write a concise but detailed description of all of the notable changes that have occurred since the last release. One way to acquire this information is to scroll through the commit history of the project, and look for commits in which a pull request was merged.
+In <location of release notes>, write a concise but detailed description of all of the notable changes that have
+occurred since the last release. One way to acquire this information is to scroll through the commit history of
+the project, and look for commits in which a pull request was merged.
 
 4. Open, review, and merge pull requests with the release procedure changes
 
-Once you've committed the changes from (2), (3), and (4) in your branch, push your branch to GitHub/GitLab using the upstream remote, open two pull requests: one that points to the production branch (e.g. master), and one that points to <develop branch>. Assign reviewers. Either you or the reviewer should eventually merge these pull requests.
+Once you've committed the changes from (2), (3), and (4) in your branch, push your branch to GitHub/GitLab using
+the upstream remote, open two pull requests: one that points to the production branch (e.g. master), and one
+that points to <develop branch>. Assign reviewers. Either you or the reviewer should eventually merge these pull
+requests.
 
 5. Create a new tag/release on GitHub/GitLab
 
-Once the pull request into the production branch from (5) has been merged, click on the releases button on the main page of the repository, then hit the "Draft a new release button". The "Tag version" should be the version number of the release, the "Target" should be the production branch, the "Release title" should (also) be the version number of the release, and the "Description" should match that of the changelog entry in (4). Once all of that information is added, hit the big green "Publish" release button.
+Once the pull request into the production branch from (5) has been merged, click on the releases button on the
+main page of the repository, then hit the "Draft a new release button". The "Tag version" should be the version
+number of the release, the "Target" should be the production branch, the "Release title" should (also) be the
+version number of the release, and the "Description" should match that of the changelog entry in (4). Once all
+of that information is added, hit the big green "Publish" release button.
 
 6. Upload new version of software to astroconda
 
@@ -102,7 +130,8 @@ To upload the new tagged version of the software to astroconda, run the followin
 - git checkout -tb update-<my_package> master
 - Open <my_package>/meta.yaml in text editor
 - Modify {% set version = '<version>' %}, close, and save
-- Run conda build -c http://ssb.stsci.edu/astroconda --skip-existing --python=<python_version> <my_package> and verify it passes without error
+- Run conda build -c http://ssb.stsci.edu/astroconda --skip-existing --python=<python_version> <my_package>
+  and verify it passes without error
 - git add <my_package>/meta.yaml
 - git commit -m 'Updated <my_package> <old_version> -> <new_version>'
 - git push origin update-<my_package>
