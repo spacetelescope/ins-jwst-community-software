@@ -4,49 +4,21 @@ This is one of the tier 2 standards. See full list [on the overview page](README
 
 ## Short description
 
-Automated dependency controllers are tools that automatically detect which of your third-party software dependencies are out of date, and automatically open a Pull Request with proposed changes.  These tools help prevent security volnerabilities and make developers aware of new updates to dependencies.
+Automated dependency controllers are tools that automatically detect which of the third-party software dependencies are out of date in your project's software environment, and automatically open a Pull Request with proposed changes to update said dependencies.  These tools help prevent security vulnerabilities and make developers aware of new updates to dependencies, which may come with new, useful features.
 
 ## Importance of this standard
 
-
-
+Automated dependency controllers help ensure that your software is up-to-date with latest third-party dependencies (e.g. `numpy`, `astropy`, `pytest`, etc.), thus helping your software to continue to be maintainable as the python software ecosystem evolves.  Furthermore, these tools help ensure that your software is not susceptible to security vulnerabilities (which is especially important for web applications).  Lastly, having periodically-updated dependencies ensures that your software continues to be installable and operational by external users who may be using fresh software environments and installations.
 
 ## Options for this standard
 
-- Pyup
-- Dependabot
-
+While there are a number of options available, we recommend [`dependabot`](https://dependabot.com/), which is native to GitHub (and thus free for all repositories), or [`pyup`](https://pyup.io) (free for public repositories).
 
 ## How to apply this standard
 
+- For `dependabot`, visit https://app.dependabot.com/auth/sign-up,  and follow the instructions to create an account and add your specific software repository.
+- For `pyup`, visit https://pyup.io/, and follow the instructions to create an account and add your specific software repository.
 
 ## Useful Links
 
-
-# Software Must Use Continuous Integration
-
-This is one of the tier 1 standards. See full list [on the overview page](README.md).
-
-## Short description
-Continuous Integration (CI) is a practice where developers regularly integrate their code changes into the main repository and validate their changes by running automated builds and tests. This integration should occur before code changes are merged into production to ensure that the new changes do not break the existing software.
-
-## Importance of this standard
-CI's automated building and testing allows developers to:
-- Reduce their manual testing effort
-- Avoid long integration processes for large code changes
-- Test changes before merging to avoid breaking the code base
-- Find bugs early in the development
-- Easily test the installation of their package
-
-## Options for this standard
-For a summary of the different CI options available at STScI, see the STScI Style Guide on CI [here](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md/#continuous-integration)
-
-## How to apply this standard
-The existence of unit tests is highly encouraged as part of this standard, but not required. Since CI also tests package installation, it can be set up without the existence of any unit tests.
-
-See a guide on how to set up multiple CI options from the [STScI Training Library](https://spacetelescope.github.io/training-library/ci_testing.html#introduction-to-continuous-integration)
-
-## Useful Links
-- [Travis Tutorial](https://docs.travis-ci.com/user/tutorial/)
-- [General information on CI by Thought Works](https://www.thoughtworks.com/continuous-integration)
-- [General information on CI by Atlassian](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+- The `jwql` repository serves as an example of a project using `pyup`.  See the [`jwql` `pyup.yml` configuration file](https://github.com/spacetelescope/jwql/blob/develop/.pyup.yml) as an example of a configuration file.

@@ -30,7 +30,7 @@ Tier 2 standards:
 - [Project Must Have or Reference a Documented ``git`` Workflow or Contributor's Guide](tier2_standards/git_workflow.md)
 - [Software Must Document Modules, Classes, and/or Functions](tier2_standards/api_documentation.md)
 - [Project Have Some Unit and/or Regression Tests](tier2_standards/test_coverage.md)
-- [Project Must Define or Reference a Consistent Release Structure](tier2_standards/release_structure.md)
+- [Project Must Define and Document a Consistent Release Procedure](tier2_standards/release_procedure.md)
 - [Project Must Provide Release Notes](tier2_standards/release_notes.md)
 - [Project Must Have Backup Maintainers](tier2_standards/backup_maintainers.md)
 - [Project Must Utilize Code Review/Approval for New Changes](tier2_standards/code_review.md)
