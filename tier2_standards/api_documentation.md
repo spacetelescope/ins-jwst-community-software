@@ -1,14 +1,14 @@
-# Software Must Document Modules, Classes, and/or Functions
+# Software Must Document Modules, Classes, and Functions
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 
 ## Short description
 
-One of the key aspects of documenting code, is documenting how users should expect to interact with different modules, classes, methods, and/or functions that live in your code. The common way of documenting these objects is to use documentation strings or "docstrings", which are string literals that give an overview of the object it's describing.
+One of the key aspects of documenting code, is documenting how users should expect to interact with different modules, classes, methods, and functions that live in your code. The common way of documenting these objects is to use documentation strings or "docstrings", which are string literals that give an overview of the object it's describing.
 
 ## Importance of this standard
 
-Docstrings for the modules, classes, and/or functions in your code serve a variety of purposes. They:
+Docstrings for the modules, classes, and functions in your code serve a variety of purposes. They:
 - Act as formalized, proper documentation
 - Allow users to better understand how the software works and how to use it
 - Improve the overall readability of code and decrease on-boarding time for new developers
@@ -39,9 +39,9 @@ For other information that can be included in docstrings, see these [examples fr
 
 ## How to apply this standard
 
-All of the modules, functions, classes, and/or methods in your code base should be accompanied by a docstring.
+All of the modules, functions, classes, and methods in your code base should be accompanied by a docstring.
 
-If docstrings already exist in your code base, we will not force you to change the formatting, only to make sure that the formatting is self-consistent and all of the information discussed above is included when relevant. If you are adding docstrings for the first time, we highly recommend you follow the NumpyDocs and `PEP257` style.
+If docstrings already exist in your code base, we will not force you to change the formatting, only to make sure that the formatting is self-consistent and all of the information discussed above is included when relevant. If you are adding docstrings for the first time, we highly recommend you follow the NumpyDocs and `PEP257` style. Whatever formatting is used, it should be documented in the repository's [Contributing Guide](git_workflow.md) for future developers.
 
 If developers feel it is appropriate, they may want to make the docstrings easier to find for users by compiling and placing them in their main documentation. This can be done using [Sphinx](https://www.sphinx-doc.org/en/master/index.html) to build their documentation and using one of the following plugins to automatically include the docstrings:
 

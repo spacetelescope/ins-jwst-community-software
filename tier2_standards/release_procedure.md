@@ -12,7 +12,6 @@ Adopting a consistent, documented release procedure has several benefits:
 
 - It helps to reduce the learning curve for performing releases, and thus helps to enable any current or future team member to perform a release.
 - It makes it clear to contributors which distribution source (i.e. `pypi` or `conda`) is used for releases.
-- It may serve as a reminder
 - It serves as an explicit reminder to update/maintain release notes and tagged versions of the software. (For more information, see the [Release Notes Tier 2 standard](release_notes.md) and the [Versioned Releases Tier 1 standard](https://github.com/spacetelescope/ins-jwst-community-software/blob/master/tier1_standards/versioned_releases.md)).
 
 ## Options for this standard
