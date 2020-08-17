@@ -1,4 +1,4 @@
-# Project Must Define and Document a Consistent Release Procedure
+# Project Must Document a Release Procedure
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 

@@ -1,4 +1,4 @@
-# Project Have Some Unit and/or Regression Tests
+# Project Have Some Unit, Integration, and/or End-to-End Tests
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 
@@ -12,7 +12,7 @@ When writing new pieces of code, developers will usually run a few checks to mak
 
 For this reason, automated tests are an important part of writing software. These pre-written tests can be easily run with every new change to the software and can be used to confirm that these new changes work as expected without breaking anything else in the code base.
 
-Alongside self-checking your code and participating in code review, running automated tests is a great way to prevent accidental bugs from making it into your code.
+Alongside self-checking your code and participating in code review, running automated tests is a great way to prevent accidental bugs from making it into your code. This is especially important as developers move between projects and the current maintainer of the code base isn't the person who originally wrote it.
 
 ## Options for this standard
 
@@ -21,7 +21,7 @@ While there are many different types of testing software, we will focus on unit,
 - Integration tests check that different parts of the code base interact correctly with each other. For example, testing that 2 classes in separate modules work together as expected.
 - End-to-end tests check that the entire software works and the requirements are met as expected. For example, testing that a common function call that users would make to your software returns the correct results.
 
-While it is important to touch on all aspects of these types of testing, prioritizing is key if you are starting from zero tests. We recommended (with support from the JWST mission office) that end-to-end tests should be the first priority for software with no automated tests. On the other hand, software that already has some tests will have to consider which testing types, if any, they are lacking.
+While it is important to touch on all aspects of these types of testing, prioritizing is key if you are starting from zero tests. We recommended (with support from the JWST mission office) that *end-to-end tests should be the first priority for software with no automated tests.* On the other hand, software that already has some tests will have to consider which testing types, if any, they are lacking.
 
 Along with including different types of tests, making sure your tests cover all parts of your code is an important step. One way to check how much of your code is used when you run your tests is to generate a coverage report. Coverage reports can be created with certain packages (see more below) which run your tests and log which parts of your code are interacted with by your tests. The final report will often contain the overall percentage of code lines that are run during your tests, the percentage of lines for each individual file, and exactly which lines are missed. This is a great resource to help prompt you when looking for which parts of the code still need to be tested.
 
@@ -33,10 +33,10 @@ We have summarized our requirements and recommendations for this tier 2 standard
 - We are requiring the following:
   - We require at least some automated tests exist for the code base and live in the software repository
   - We require that these tests cover the main functionality of the software at a minimum
-  - We require some if not all of the tests are run in Continuous Integration (CI) builds
+  - We require all tests that can be run in Continuous Integration (CI) builds to be run there (e.g. some user interface tests can't be run on CI)
   - We will require a meeting where teams can describe/demonstrate their testing structure and explain why the level of testing is acceptable for their software
 - We are recommending the following:
-  - We strongly recommend common automated testing tools. The STScI Style Guide recommends `pytest` so we will recommend this as well, but teams do have other options like `unittest` or `nosetest`.
+  - We strongly recommend common automated testing tools. The STScI Style Guide recommends `pytest` so we will recommend this as well, but teams do have other options like `unittest` or `nosetest`. In order to facilitate moving between projects in INS, strong justification will be needed to use a testing framework other than `pytest` for new projects.
   - We recommend teams include a mixture of unit, integration, and end-to-end tests as applicable for their software
 
 ## How to apply this standard

@@ -26,15 +26,15 @@ Tier 2 standards:
 - [Software Repository Must Have a ``Code of Conduct`` File](tier2_standards/code_of_conduct.md)
 - [Project Have Documented Citation Information](tier2_standards/citation_information.md)
 - [Software Must Enforce Language-specific Coding Standards (e.g. PEP8)](tier2_standards/coding_standards.md)
-- [Software Must Use Python>=3.6 Where Applicable](tier2_standards/python_version.md)
+- [Software Must Support Recent Version(s) of Python](tier2_standards/python_version.md)
 - [Project Must Have or Reference a Documented ``git`` Workflow or Contributor's Guide](tier2_standards/git_workflow.md)
 - [Software Must Document Modules, Classes, and/or Functions](tier2_standards/api_documentation.md)
 - [Project Have Some Unit and/or Regression Tests](tier2_standards/test_coverage.md)
-- [Project Must Define and Document a Consistent Release Procedure](tier2_standards/release_procedure.md)
+- [Project Must Document a Release Procedure](tier2_standards/release_procedure.md)
 - [Project Must Provide Release Notes](tier2_standards/release_notes.md)
 - [Project Must Have Backup Maintainers](tier2_standards/backup_maintainers.md)
 - [Project Must Utilize Code Review/Approval for New Changes](tier2_standards/code_review.md)
-- [Project Must Use an Automated Dependency Controller](tier2_standards/automated_dependency.md)
+- [Project Must Use an Automated Dependency Update Tool](tier2_standards/automated_dependency.md)
 
 ## Contributing
 

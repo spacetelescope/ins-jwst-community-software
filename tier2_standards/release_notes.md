@@ -34,11 +34,13 @@ It is up to the developers to decide what information they want to include in th
 
 Developers also have options when formatting their release notes. They can include any of the following:
 - Document the version number and release date (these are particularly important)
+- Link to the STScI Help Desk as a place for users to direct their questions
 - Link to specific Issues and/or Pull Requests
-- List the author of each of the changes
 - Include small lines of code for any new commands
 
 Developers should write release notes with their user community in mind: the writing shouldn't be vague, jargon should be kept to a minimum, acronyms should be explained, etc.
+
+If the software is required to be approved before release (e.g. during a software freeze), release notes should be written and presented as part of this approval process.
 
 ## Useful Links
 

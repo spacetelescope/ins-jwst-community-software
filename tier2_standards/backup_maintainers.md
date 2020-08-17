@@ -4,7 +4,7 @@ This is one of the tier 2 standards. See full list [on the overview page](README
 
 ## Short description
 
-We define a "Backup Maintainer" as an individual who is able to effectively contribute to, review, and merge software changes to the project (while following any project-specific guidelines or workflows) and act as a project administrator in the absence of the project's 'owner'/primary administrator.  This standard aims to prevent 'single-points-of-failure' and encourage knowledge-transfer amongst developers.  We require that projects have at least one backup maintainer, but multiple backup maintainers is always encouraged.
+We define a "Backup Maintainer" as an individual who is able to act as a project administrator in the absence of the project's primary 'owner' or administrator.  The individual(s) in the role of backup maintainer(s) should also be able to effectively contribute to, review, and merge software changes to the project (while following any project-specific guidelines or workflows).  This standard aims to prevent 'single-points-of-failure' and encourage knowledge-transfer amongst developers.  We require that projects have at least one backup maintainer, but multiple backup maintainers is always encouraged.
 
 ## Importance of this standard
 
@@ -16,8 +16,9 @@ We require that teams identify at least one backup maintainer for their project.
 
 For identifying backup maintainer(s):
 
-- Ask branch managers to identify someone in your group
-- If resources do not exist, notify Matthew and Shannon who will then notify the JWST mission office
+- Teams may identify this role from within their project team
+- If the choice is not obvious or the resources do not exist within the project team, ask appropriate branch manager(s) to identify someone
+- If branch manager(s) are unable to identify someone, notify Matthew and Shannon who will then work with the INS management to fill the need
 
 ## How to apply this standard
 
