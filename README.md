@@ -28,7 +28,7 @@ Tier 2 standards:
 - [Software Must Enforce Language-specific Coding Standards (e.g. PEP8)](tier2_standards/coding_standards.md)
 - [Software Must Support Recent Version(s) of Python](tier2_standards/python_version.md)
 - [Project Must Have or Reference a Documented ``git`` Workflow or Contributor's Guide](tier2_standards/git_workflow.md)
-- [Software Must Document Modules, Classes, and/or Functions](tier2_standards/api_documentation.md)
+- [Software Must Document Modules, Classes, and Functions](tier2_standards/api_documentation.md)
 - [Project Have Some Unit and/or Regression Tests](tier2_standards/test_coverage.md)
 - [Project Must Document a Release Procedure](tier2_standards/release_procedure.md)
 - [Project Must Provide Release Notes](tier2_standards/release_notes.md)
