@@ -1,4 +1,4 @@
-# Project Have Some Unit, Integration, and/or End-to-End Tests
+# Project Must Have Some Unit, Integration, and/or End-to-End Tests
 
 This is one of the tier 2 standards. See full list [on the overview page](README.md).
 
