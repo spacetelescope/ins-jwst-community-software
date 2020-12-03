@@ -24,7 +24,7 @@ Tier 1 standards:
 Tier 2 standards:
 
 - [Software Repository Must Have a ``Code of Conduct`` File](tier2_standards/code_of_conduct.md)
-- [Project Have Documented Citation Information](tier2_standards/citation_information.md)
+- [Project Have Document Citation Information](tier2_standards/citation_information.md)
 - [Software Must Enforce Language-specific Coding Standards (e.g. PEP8)](tier2_standards/coding_standards.md)
 - [Software Must Support Recent Version(s) of Python](tier2_standards/python_version.md)
 - [Project Must Have or Reference a Documented ``git`` Workflow or Contributor's Guide](tier2_standards/git_workflow.md)
