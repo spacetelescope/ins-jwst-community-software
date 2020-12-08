@@ -19,7 +19,7 @@ For a summary of the different CI options available at STScI, see the STScI Styl
 ## How to apply this standard
 The existence of unit tests is highly encouraged as part of this standard, but not required. Since CI also tests package installation, it can be set up without the existence of any unit tests.
 
-See a guide on how to set up multiple CI options from the [STScI Training Library](https://spacetelescope.github.io/training-library/ci_testing.html#introduction-to-continuous-integration)
+See a guide on how to set up multiple CI options from the [STScI Training Library](https://innerspace.stsci.edu/display/INSTL/Continuous+Integration+and+Testing)
 
 ## Useful Links
 - [Travis Tutorial](https://docs.travis-ci.com/user/tutorial/)
