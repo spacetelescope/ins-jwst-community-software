@@ -48,8 +48,8 @@ How to write tests:
 - Use a self-consistent format when writing tests. Tests are usually formatted as functions or classes and usually live in files named `test_<what-is-tested>.py` in their own sub-directory named `tests` inside your repository (e.g. `repo-name/repo-name/tests/test_conversions.py`)
 
 How to run tests automatically as part of your CI builds:
-- You can set up your repository to automatically run all your tests every time you push a new commit to an open pull/merge request. In general, this is done by adding a command after your installation command that runs your tests (e.g. the command: `pytest`) to your CI file (either `travis.yml` or `Jenkinsfile`).
-- To add a testing command to Travis CI, check out [Travis's testing documentation](https://blog.travis-ci.com/2019-08-07-extensive-python-testing-on-travis-ci)
+- You can set up your repository to automatically run all your tests every time you push a new commit to an open pull/merge request. In general, this is done by adding a command after your installation command that runs your tests (e.g. the command: `pytest`) to your CI file (either a GitHub Actions`YAML` file or `Jenkinsfile`).
+- To add a testing command to GitHub Actions CI, check out [the comprehensive GitHub Actions site](https://docs.github.com/en/actions/learn-github-actions) or specially for Python, check out [GitHub's Python testing documentation](https://docs.github.com/en/actions/guides/building-and-testing-python#testing-your-code)
 - To add a testing command to Jenkins CI, as per the STScI Style Guide's suggestion see the [Innerspace page on Jenkins](https://innerspace.stsci.edu/pages/viewpage.action?spaceKey=SSR&title=Users+Guide%3A+Running+Regression+Tests). In particular, scroll down to the section titled "Running Tests Using Jenkins".
 
 How to check test coverage (optional):
@@ -62,3 +62,4 @@ How to check test coverage (optional):
 - [STScI's main python testing page](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md)
 - [Unittest documentation](https://docs.python.org/3/library/unittest.html)
 - [Nosetest documentation](https://nose.readthedocs.io/en/latest/)
+
