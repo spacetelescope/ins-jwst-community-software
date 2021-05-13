@@ -22,6 +22,8 @@ The existence of unit tests is highly encouraged as part of this standard, but n
 See a guide on how to set up multiple CI options from the [STScI Training Library](https://innerspace.stsci.edu/display/INSTL/Continuous+Integration+and+Testing)
 
 ## Useful Links
-- [Travis Tutorial](https://docs.travis-ci.com/user/tutorial/)
+
+- [GitHub Actions Quickstart Tutorial](https://docs.github.com/en/actions/quickstart)
+- [GitHub Actions Python Tutorial](https://docs.github.com/en/actions/guides/building-and-testing-python)
 - [General information on CI by Thought Works](https://www.thoughtworks.com/continuous-integration)
 - [General information on CI by Atlassian](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
