@@ -29,5 +29,3 @@ What information to include:
 Not required, but useful information to include:
 - Link to repository
 - Link to documentation for software if it exists outside JDox
-
-*IMPORTANT NOTE*: While JDox will be frozen for before the Cycle 1 call, there has been a request to have updates occur before the JWST master class in mid-November. If possible, please make these updates for the master class.
