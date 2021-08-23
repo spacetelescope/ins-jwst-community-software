@@ -16,7 +16,7 @@ Tier 1 standards:
 - [Software Must Be Available with `conda` or `pip`](tier1_standards/conda_or_pip.md)
 - [Software Must Have a Recorded Environment](tier1_standards/software_environment.md)
 - [Software Must Use Continuous Integration](tier1_standards/ci.md)
-- [Software Must Meet Basic Standards for Protecting It's `master` Branch](tier1_standards/protected_master_branch.md)
+- [Software Must Meet Basic Standards for Protecting It's `main` Branch](tier1_standards/protected_main_branch.md)
 - [Software Must Have Installation and Usage Documentation](tier1_standards/documentation.md)
 - [Software Must Have a LICENSE File](tier1_standards/license_file.md)
 - [Software Must Meet Basic Security Standards](tier1_standards/security_standards.md)
