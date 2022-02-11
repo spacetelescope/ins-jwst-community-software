@@ -12,11 +12,11 @@ Automated dependency update tools help ensure that your software is up-to-date w
 
 ## Options for this standard
 
-While there are a number of options available, we recommend [`dependabot`](https://dependabot.com/), which is native to GitHub (and thus free for all repositories), or [`pyup`](https://pyup.io) (free for public repositories).
+While there are a number of options available, we recommend [`dependabot`](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/), which is native to GitHub (and thus free for all repositories), or [`pyup`](https://pyup.io) (free for public repositories).
 
 ## How to apply this standard
 
-- For `dependabot`, visit https://app.dependabot.com/auth/sign-up,  and follow the instructions to create an account and add your specific software repository.
+- For `dependabot`, visit [this page](https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/enabling-and-disabling-dependabot-version-updates#enabling-github-dependabot-version-updates), and follow the instructions to create a `dependabot.yml` file
 - For `pyup`, visit https://pyup.io/, and follow the instructions to create an account and add your specific software repository.
 
 ## Useful Links

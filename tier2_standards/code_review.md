@@ -19,7 +19,7 @@ Whenever a pull request or merge request is submitted, we are requiring that som
 - [Assigning a reviewer on GitLab](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html)
 
 We are requiring that an approving review is submitted before any pull/merge request is merged into the code base. However, developers who are administrators on the repository can use their discretion to override this in urgent situations. This can be done in GitHub or GitLab by following instructions here:
-- [Require code review for PRs in GitHub](https://help.github.com/en/enterprise/2.13/user/articles/enabling-required-reviews-for-pull-requests)
+- [Require code review for PRs in GitHub](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
 - [Require code review for MRs in GitLab](https://docs.gitlab.com/ee/user/project/merge_requests/merge_request_approvals.html)
 
 Teams should see the [Backup Maintainers Standard](backup_maintainers.md) if they are concerned about not having the staffing to comply with this requirement.
