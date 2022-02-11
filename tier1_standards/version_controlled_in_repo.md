@@ -1,6 +1,6 @@
 # Software Must Be Version Controlled in a Software Repository
 
-This is one of the tier 1 standards. See full list [on the overview page](README.md).
+This is one of the tier 1 standards. See full list [on the main page](../README.md).
 
 ## Short description
 A version controlled repository is a set of directories and files that have their changes tracked such that older versions of the software can be retrieved.

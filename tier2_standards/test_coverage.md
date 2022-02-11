@@ -1,6 +1,6 @@
 # Project Must Have Some Unit, Integration, and/or End-to-End Tests
 
-This is one of the tier 2 standards. See full list [on the overview page](README.md).
+This is one of the tier 2 standards. See full list [on the main page](../README.md).
 
 ## Short description
 
@@ -62,4 +62,3 @@ How to check test coverage (optional):
 - [STScI's main python testing page](https://github.com/spacetelescope/style-guides/blob/master/guides/python-testing.md)
 - [Unittest documentation](https://docs.python.org/3/library/unittest.html)
 - [Nosetest documentation](https://nose.readthedocs.io/en/latest/)
-

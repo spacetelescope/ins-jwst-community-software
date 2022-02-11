@@ -1,6 +1,6 @@
 # Software Must Have a LICENSE File
 
-This is one of the tier 1 standards. See full list [on the overview page](README.md).
+This is one of the tier 1 standards. See full list [on the main page](../README.md).
 
 ## Short description
 A license file is a document attached to the software repository that defines how the software may be used and distributed.

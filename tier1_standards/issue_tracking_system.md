@@ -1,6 +1,6 @@
 # Software Must Use an Issue Tracking System
 
-This is one of the tier 1 standards. See full list [on the overview page](README.md).
+This is one of the tier 1 standards. See full list [on the main page](../README.md).
 
 ## Short description
 An issue tracking system is a way for software to track needed updates, features, bugs, and any other necessary changes. These can be internal to the software development team, or external and available for the user community to see and use as well.

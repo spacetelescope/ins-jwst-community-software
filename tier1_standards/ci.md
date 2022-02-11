@@ -1,6 +1,8 @@
 # Software Must Use Continuous Integration
 
-This is one of the tier 1 standards. See full list [on the overview page](README.md).
+This is one of the tier 1 standards. See full list [on the main page](../README.md).
+
+[test](conda_or_pip.md)
 
 ## Short description
 Continuous Integration (CI) is a practice where developers regularly integrate their code changes into the main repository and validate their changes by running automated builds and tests. This integration should occur before code changes are merged into production to ensure that the new changes do not break the existing software.
