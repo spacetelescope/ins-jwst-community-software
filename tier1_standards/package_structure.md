@@ -1,6 +1,6 @@
 # Software Must Be Installable with `python setup.py install`
 
-This is one of the tier 1 standards. See full list [on the overview page](README.md).
+This is one of the tier 1 standards. See full list [on the main page](../README.md).
 
 ## Short description
 The command `python setup.py install` (or `python setup.py develop`) will build and install all of the modules in the software repository. In order for this command to work, the software repository must have a `setup.py` file and resemble that of a package structure.

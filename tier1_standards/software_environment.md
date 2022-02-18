@@ -1,6 +1,6 @@
 # Software Must Have a Recorded Environment
 
-This is one of the tier 1 standards. See full list [on the overview page](README.md).
+This is one of the tier 1 standards. See full list [on the main page](../README.md).
 
 ## Short description
 Files that contain a list of software dependencies that are needed to run the tool, like `environment.yml` and `requirements.txt` files, are a good way to allow users to recreate a software environment in which to run the software.  Environment/requirement files can in turn be made available and version controlled within the software repository, thus capturing a software environment in which the tool will run sucessfully for each version of the code.

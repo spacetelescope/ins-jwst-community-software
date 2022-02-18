@@ -1,6 +1,6 @@
 # Project Must Provide Release Notes
 
-This is one of the tier 2 standards. See full list [on the overview page](README.md).
+This is one of the tier 2 standards. See full list [on the main page](../README.md).
 
 ## Short description
 
@@ -48,4 +48,4 @@ Check out some examples of release note formatting here:
 - [The JWST Pipeline's CHANGES.rst](https://github.com/spacetelescope/jwst/blob/master/CHANGES.rst)
 - [Photutil's CHANGES.rst](https://github.com/astropy/photutils/blob/master/CHANGES.rst)
 - [ASDF's CHANGELOG.md](https://github.com/asdf-vm/asdf/blob/master/CHANGELOG.md)
-- [Pytest's Changelog.rst](https://github.com/pytest-dev/pytest/blob/master/doc/en/changelog.rst)
+- [Pytest's Changelog.rst](https://github.com/pytest-dev/pytest/blob/main/doc/en/changelog.rst)

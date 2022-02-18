@@ -1,6 +1,6 @@
 # Software Must Meet Basic Standards for Protecting It's `main` Branch
 
-This is one of the tier 1 standards. See full list [on the overview page](README.md).
+This is one of the tier 1 standards. See full list [on the main page](../README.md).
 
 ## Short description
 Protecting the `main` branch (formally known as the `master` branch) means setting up safeguards within the repository settings to prevent any un-checked changes from being applied to the production level of the code.

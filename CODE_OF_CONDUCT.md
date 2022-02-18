@@ -16,5 +16,4 @@ We, as members of the spacetelescope open source community, pledge the following
 
 This code of conduct is neither exhaustive nor complete, and should be followed in spirit as much as in letter. It applies to all community situations online and offline, including mailing lists, forums, social media, conferences, meetings, associated social events, and one-to-one interactions.
 
-Parts of this code of conduct have been adapted from the Astropy and Numfocus codes of conduct.
-http://www.astropy.org/code_of_conduct.html https://www.numfocus.org/about/code-of-conduct/
+Parts of this code of conduct have been adapted from the [Astropy code of conduct](http://www.astropy.org/code_of_conduct.html) and [Numfocus code of conduct](https://www.numfocus.org/about/code-of-conduct/).
