@@ -46,7 +46,7 @@ If you want to suggest changes to this content do the following:
 5. Make your changes
 6. Push that branch to your personal GitHub repository (i.e. ``origin``)
 7. On the ``spacetelescope`` repository, create a pull request
-8. Assign a reviewer (either ``@bourque`` or ``@shanosborne``)
+8. Assign a reviewer (either ``@mfixstsci`` or ``@BradleySappington``)
 9. Iterate with the reviewer over any needed changes until the reviewer accepts and merges your branch
 10. Delete your local copy of your branch
 
