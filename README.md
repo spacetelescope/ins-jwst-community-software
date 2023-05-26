@@ -52,4 +52,4 @@ If you want to suggest changes to this content do the following:
 
 ## Questions?
 
-Any questions about this effort may be directed to bourque@stsci.edu and sosborne@stsci.edu
+Any questions about this effort may be directed to mfix@stsci.edu and bsappington@stsci.edu
