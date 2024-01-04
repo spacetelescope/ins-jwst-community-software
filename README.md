@@ -36,6 +36,7 @@ Tier 2 standards:
 - [Project Must Utilize Code Review/Approval for New Changes](tier2_standards/code_review.md)
 - [Project Must Use an Automated Dependency Update Tool](tier2_standards/automated_dependency.md)
 - [Project Must Enforce Basic Accessibility Standards](tier2_standards/accessibility_standards.md)
+- [Project Must Enforce Code Style/Linting](tier2_standards/linting.md)
 
 ## Contributing
 
