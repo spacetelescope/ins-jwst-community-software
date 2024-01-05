@@ -5,10 +5,12 @@ This is one of the tier 2 standards. See full list [on the main page](../README.
 ## Short description
 
 Coding standards serve as a style guide or set of best practices for writing code.
+Linters are programs that analyize codes to check for bugs, and code style violations.
 
 ## Importance of this standard
 
 Consistent coding standards across a piece of software improves the overall quality of the code. It make code more readable both for current and future developers which in turn helps it to be more maintainable.
+Using a linter enforces good programming habits that can sometime slip through the cracks. It enables a code base to be uniform across modules independent of the contributor.
 
 ## Options for this standard
 
@@ -33,9 +35,14 @@ Below are a list of standards that we have identified as 'overkill'.  Teams may 
 
 ## How to apply this standard
 
-Software teams should make an attempt to improve their code to be more in line with the `PEP8` standards put forward by Python. The extent of this improvement is up the software team, but a reasonable attempt at updating the code to these standards is expected.
+Software teams should make an attempt to improve their code to be more in line with the `PEP8` standards put forward by Python. Enforcing linting on code merges is the favored method to enforce this standard.  However if for some reason this practice does not work for your project, you can work with us to find a solution.  A reasonable attempt at updating the code to these standards is expected.  
 
-To help the teams get started, each team will be given a report detailing the current state of their repository compared to `PEP8` standards (with the standards we deemed to be "overkill" listed above ignored). These types of reports can be created using Python packages that compare the contents of a file, folder, repository, etc. to `PEP8` standards and return a report of any disagreements.
+You can use your preferred linter, and can start by looking at the following 2 options:
+
+- [ruff](https://pypi.org/project/ruff/)
+- [pycodestyle](https://pypi.org/project/pycodestyle/)
+
+If you require assistance, we can help the teams get started, by providing a report detailing the current state of a repository compared to `PEP8` standards (with the standards we deemed to be "overkill" listed above ignored). These types of reports can be created using Python packages that compare the contents of a file, folder, repository, etc. to `PEP8` standards and return a report of any disagreements.
 
 Teams can improve their code using some of the following methods:
 
