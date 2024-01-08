@@ -31,6 +31,14 @@ Below are a list of standards that we have identified as 'overkill'.  Teams may 
 - `E501 line too long`
 - `E502 the backslash is redundant`
 
+## Linting
+
+Linters are programs that analyize codes to check for bugs, and code style violations.
+
+## Why Use A Linter
+
+Using a linter enforces good programming habits that can sometime slip through the cracks. It enables a code base to be uniform across modules independent of the contributor. It can catch the coding standards that fall outside of the 'overkill' scope.
+
 ## How to apply this standard
 
 Software teams should make an attempt to improve their code to be more in line with the `PEP8` standards put forward by Python. The extent of this improvement is up the software team, but a reasonable attempt at updating the code to these standards is expected.
@@ -40,6 +48,7 @@ To help the teams get started, each team will be given a report detailing the cu
 Teams can improve their code using some of the following methods:
 
 - Reading about [`PEP8` requirements](https://www.python.org/dev/peps/pep-0008/) and checking and changing code by hand
+- [ruff](https://pypi.org/project/ruff/)
 - Using a package that checks code style against `PEP8` like [flake8](https://flake8.pycqa.org/en/latest/), [`pylint`](https://www.pylint.org/), [pycodestyle](https://pep8.readthedocs.io/en/latest/intro.html), etc. and changing code by hand
 - Using a package that checks and changes code to match style guides like [`autopep8`](https://pep8.readthedocs.io/en/latest/intro.html)
 
