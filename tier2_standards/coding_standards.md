@@ -41,14 +41,18 @@ Using a linter enforces good programming habits that can sometime slip through t
 
 ## How to apply this standard
 
-Software teams should make an attempt to improve their code to be more in line with the `PEP8` standards put forward by Python. The extent of this improvement is up the software team, but a reasonable attempt at updating the code to these standards is expected.
+If you require assistance, we can help the teams get started, by providing a report detailing the current state of a repository compared to `PEP8` standards (with the standards we deemed to be "overkill" listed above ignored). These types of reports can be created using Python packages that compare the contents of a file, folder, repository, etc. to `PEP8` standards and return a report of any disagreements.
 
-To help the teams get started, each team will be given a report detailing the current state of their repository compared to `PEP8` standards (with the standards we deemed to be "overkill" listed above ignored). These types of reports can be created using Python packages that compare the contents of a file, folder, repository, etc. to `PEP8` standards and return a report of any disagreements.
+Software teams should make an attempt to improve their code to be more in line with the `PEP8` standards put forward by Python. Enforcing linting on code merges is the favored method to enforce this standard.  However if for some reason this practice does not work for your project, you can work with us to find a solution.  A reasonable attempt at updating the code to these standards is expected.  
+
+You can use your preferred linter, and can start by looking at the following 2 options:
+
+- [ruff](https://pypi.org/project/ruff/)
+- [pycodestyle](https://pypi.org/project/pycodestyle/)
 
 Teams can improve their code using some of the following methods:
 
 - Reading about [`PEP8` requirements](https://www.python.org/dev/peps/pep-0008/) and checking and changing code by hand
-- [ruff](https://pypi.org/project/ruff/)
 - Using a package that checks code style against `PEP8` like [flake8](https://flake8.pycqa.org/en/latest/), [`pylint`](https://www.pylint.org/), [pycodestyle](https://pep8.readthedocs.io/en/latest/intro.html), etc. and changing code by hand
 - Using a package that checks and changes code to match style guides like [`autopep8`](https://pep8.readthedocs.io/en/latest/intro.html)
 
