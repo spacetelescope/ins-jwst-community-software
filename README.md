@@ -12,7 +12,7 @@ Tier 1 standards:
 - [Software Must Be Version Controlled in a Software Repository](tier1_standards/version_controlled_in_repo.md)
 - [Software Must Be Versioned](tier1_standards/versioned_releases.md)
 - [Software Must Use an Issue Tracking System](tier1_standards/issue_tracking_system.md)
-- [Software Must Be Installable with `python setup.py install`](tier1_standards/package_structure.md)
+- [Software Must Be Installable with `pip install .`](tier1_standards/package_structure.md)
 - [Software Must Be Available with `conda` or `pip`](tier1_standards/conda_or_pip.md)
 - [Software Must Have a Recorded Environment](tier1_standards/software_environment.md)
 - [Software Must Use Continuous Integration](tier1_standards/ci.md)
