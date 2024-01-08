@@ -41,8 +41,6 @@ Using a linter enforces good programming habits that can sometime slip through t
 
 ## How to apply this standard
 
-If you require assistance, we can help the teams get started, by providing a report detailing the current state of a repository compared to `PEP8` standards (with the standards we deemed to be "overkill" listed above ignored). These types of reports can be created using Python packages that compare the contents of a file, folder, repository, etc. to `PEP8` standards and return a report of any disagreements.
-
 Software teams should make an attempt to improve their code to be more in line with the `PEP8` standards put forward by Python. Enforcing linting on code merges is the favored method to enforce this standard.  However if for some reason this practice does not work for your project, you can work with us to find a solution.  A reasonable attempt at updating the code to these standards is expected.  
 
 You can use your preferred linter, and can start by looking at the following 2 options:
